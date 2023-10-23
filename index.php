@@ -38,20 +38,18 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="slider1" />
+                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="slider1">
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
                                 <h5>Play trending games everywhere.</h5>
                             </div>
                             <div class="line-x"></div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-                                    massa mi.
-                            </div>
+                            <p class="carousel-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+                                massa mi.
                             </p>
                         </div>
                     </div>
@@ -64,12 +62,10 @@
                                 <h5>Connect and enjoy with team.</h5>
                             </div>
                             <div class="line-x"></div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                            </div>
+                            <p class="carousel-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.
                             </p>
                         </div>
                     </div>
@@ -82,12 +78,10 @@
                                 <h5>Feel no limits power.</h5>
                             </div>
                             <div class="line-x"></div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                            </div>
+                            <p class="carousel-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.
                             </p>
                         </div>
                     </div>
@@ -100,12 +94,10 @@
                                 <h5>Free cloud gaming experience.</h5>
                             </div>
                             <div class="line-x"></div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                            </div>
+                            <p class="carousel-txt">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
+                                hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
+                                ultrices mauris.
                             </p>
                         </div>
                     </div>
