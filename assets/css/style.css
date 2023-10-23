@@ -628,6 +628,10 @@ a:hover {
     column-gap: 8px;
 }
 
+.navbar-brand img {
+    max-width: 30px;
+}
+
 .navbar-toggler {
     color: #fff;
     padding: 0;
@@ -1367,6 +1371,8 @@ a:hover {
     object-fit: cover;
     -webkit-transform: scale(2) translateY(17%);
     transform: scale(2) translateY(17%);
+    width: 100%;
+    height: 100%;
 }
 
 .ch-visitor_count {
@@ -1669,6 +1675,10 @@ a:hover {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+.flogo img {
+    max-width: 42px;
 }
 
 .ftitle {

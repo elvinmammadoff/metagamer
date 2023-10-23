@@ -6,8 +6,8 @@
     <title>Meta</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="assets/css/plugins/slick.css" type="text/css" rel="stylesheet" />
-    <link href="assets/css/plugins/slick-theme.css" type="text/css" rel="stylesheet" />
+    <link href="assets/css/plugins/slick.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/plugins/slick-theme.css" type="text/css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -38,7 +38,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="" />
+                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="slider1" />
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="carousel-img" src="./assets/img/carousel/slider-2.jpg" alt="" />
+                    <img class="carousel-img" src="./assets/img/carousel/slider-2.jpg" alt="slider2">
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="" />
+                    <img class="carousel-img" src="./assets/img/carousel/slider-1.jpg" alt="slider1">
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="carousel-img" src="./assets/img/carousel/slider-2.jpg" alt="" />
+                    <img class="carousel-img" src="./assets/img/carousel/slider-2.jpg" alt="slider2">
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
@@ -124,7 +124,7 @@
                             <nav class="navbar navbar-expand-lg affix-top">
                                 <div class="container-fluid navbar-container">
                                     <a class="navbar-brand page-scroll" href="#home">
-                                        <img src="assets/img/logo.svg" alt="" width="30px">
+                                        <img src="assets/img/logo.svg" alt="Metagamer">
                                         <span>METAGAMER</span>
                                     </a>
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -169,7 +169,7 @@
                 <div id="thumb-slider">
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-1.png" alt="">
+                            <img src="assets/img/thumb/game-1.png" alt="game1">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -190,27 +190,23 @@
                             <div class="ch-user">
                                 <div class="ch-visitor">
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-1.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-1.jpg" alt="user1" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-2.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-2.jpg" alt="user2" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-3.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-3.jpg" alt="user3" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-4.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-4.jpg" alt="user4" class="user-avatar">
                                     </div>
                                     <div class="ch-visitor_count">7</div>
                                 </div>
                                 <span class="ch-user_stats">Players joined</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">2000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -223,7 +219,7 @@
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-2.png" alt="">
+                            <img src="assets/img/thumb/game-2.png" alt="game2">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -245,7 +241,7 @@
                                 <span class="ch-user_stats"><strong>8</strong> Players registered</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">3000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -259,7 +255,7 @@
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-3.png" alt="">
+                            <img src="assets/img/thumb/game-3.png" alt="game3">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -281,7 +277,7 @@
                                 <span class="ch-user_stats"><strong>12</strong> Players registered</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">1000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -295,7 +291,7 @@
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-4.png" alt="">
+                            <img src="assets/img/thumb/game-4.png" alt="game4">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -316,27 +312,23 @@
                             <div class="ch-user">
                                 <div class="ch-visitor">
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-5.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-5.jpg" alt="user5" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-10.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-10.jpg" alt="user10" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-7.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-7.jpg" alt="user7" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-9.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-9.jpg" alt="user9" class="user-avatar">
                                     </div>
                                     <div class="ch-visitor_count">10</div>
                                 </div>
                                 <span class="ch-user_stats">Players joined</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">3000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -349,7 +341,7 @@
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-1.png" alt="">
+                            <img src="assets/img/thumb/game-1.png" alt="game1">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -371,7 +363,7 @@
                                 <span class="ch-user_stats"><strong>6</strong> Players registered</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">1000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -385,7 +377,7 @@
                     </div>
                     <div class="card shadow-sm">
                         <div class="card-image">
-                            <img src="assets/img/thumb/game-2.png" alt="">
+                            <img src="assets/img/thumb/game-2.png" alt="game2">
                             <div class="card-image_over">
                                 <div class="card-time">
                                     <i class="icon-clock"></i>
@@ -406,27 +398,23 @@
                             <div class="ch-user">
                                 <div class="ch-visitor">
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-11.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-11.jpg" alt="user11" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-18.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-18.jpg" alt="user18" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-14.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-14.jpg" alt="user14" class="user-avatar">
                                     </div>
                                     <div class="position-relative avatar_box user-box">
-                                        <img src="assets/img/user/user-16.jpg" width="100%" height="100%"
-                                            class="user-avatar">
+                                        <img src="assets/img/user/user-16.jpg" alt="user16" class="user-avatar">
                                     </div>
                                     <div class="ch-visitor_count">11</div>
                                 </div>
                                 <span class="ch-user_stats">Players joined</span>
                             </div>
                             <div class="ch-prize">
-                                <img src="assets/img/coin.png" alt="">
+                                <img src="assets/img/coin.png" alt="coin">
                                 <div class="ch-prize_desc">
                                     <h4 class="ch-prize_amount">3000 coin prize</h4>
                                     <p class="ch-prize_text">Total prizepool divided amoung all placements.</p>
@@ -447,7 +435,7 @@
                 <h2 class="title text-uppercase">Updates</h2>
                 <div class="row">
                     <div class="col-7">
-                        <img src="assets/img/character.png" class="update-img" alt="">
+                        <img src="assets/img/character.png" class="update-img" alt="character">
                     </div>
                     <div class="col-5">
                         <div class="card update-card">
@@ -482,22 +470,22 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <a href="" target="_blank">
-                                            <img src="assets/img/downloads/appstore.png" alt="">
+                                            <img src="assets/img/downloads/appstore.png" alt="appstore">
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="" target="_blank">
-                                            <img src="assets/img/downloads/googleplay.png" alt="">
+                                            <img src="assets/img/downloads/googleplay.png" alt="googleplay">
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="" target="_blank">
-                                            <img src="assets/img/downloads/amazonstore.png" alt="">
+                                            <img src="assets/img/downloads/amazonstore.png" alt="amazonstore">
                                         </a>
                                     </div>
                                     <div class="col-6">
                                         <a href="" target="_blank">
-                                            <img src="assets/img/downloads/getteam.png" alt="">
+                                            <img src="assets/img/downloads/getteam.png" alt="getteam">
                                         </a>
                                     </div>
                                 </div>
@@ -517,7 +505,7 @@
                 <h2 class="title text-uppercase">Games</h2>
                 <div class="gcard" id="games-slider">
                     <a href="" class="gcard-item">
-                        <img src="assets/img/games/games-1.jpg" alt="">
+                        <img src="assets/img/games/games-1.jpg" alt="games1">
                         <div class="gcard_details">
                             <div class="gcard-bottom">
                                 <div class="gcard-rating">Rating: <span><i class="icon-star-full"></i> 4,6</span></div>
@@ -537,7 +525,7 @@
                         </div>
                     </a>
                     <a href="" class="gcard-item">
-                        <img src="assets/img/games/games-2.jpg" alt="">
+                        <img src="assets/img/games/games-2.jpg" alt="games2">
                         <div class="gcard_details">
                             <div class="gcard-bottom">
                                 <div class="gcard-rating">Rating: <span><i class="icon-star-full"></i> 3,9</span></div>
@@ -557,7 +545,7 @@
                         </div>
                     </a>
                     <a href="" class="gcard-item">
-                        <img src="assets/img/games/games-3.jpg" alt="">
+                        <img src="assets/img/games/games-3.jpg" alt="games3">
                         <div class="gcard_details">
                             <div class="gcard-bottom">
                                 <div class="gcard-rating">Rating: <span><i class="icon-star-full"></i> 4,8</span></div>
@@ -597,7 +585,7 @@
                         </div>
                     </a>
                     <a href="" class="gcard-item">
-                        <img src="assets/img/games/games-5.jpg" alt="">
+                        <img src="assets/img/games/games-5.jpg" alt="games5">
                         <div class="gcard_details">
                             <div class="gcard-bottom">
                                 <div class="gcard-rating">Rating: <span><i class="icon-star-full"></i> 4,9</span></div>
@@ -686,7 +674,7 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="flogo text-uppercase">
-                                <img src="assets/img/logo.svg" alt="" width="42px">
+                                <img src="assets/img/logo.svg" alt="logo">
                                 <h3>Metagamer</h3>
                             </div>
                             <p class="ftext">We are a community of millions of Metagames and continue to open doors to
@@ -713,22 +701,22 @@
                             <h3 class="ftitle text-uppercase">Payment Methods</h3>
                             <div class="fpay">
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/visa.png" alt="">
+                                    <img src="assets/img/payments/visa.png" alt="visa">
                                 </div>
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/mastercard.png" alt="">
+                                    <img src="assets/img/payments/mastercard.png" alt="mastercard">
                                 </div>
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/paypal.png" alt="">
+                                    <img src="assets/img/payments/paypal.png" alt="paypal">
                                 </div>
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/skrill.png" alt="">
+                                    <img src="assets/img/payments/skrill.png" alt="skrill">
                                 </div>
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/stripe.png" alt="">
+                                    <img src="assets/img/payments/stripe.png" alt="stripe">
                                 </div>
                                 <div class="fpay-item">
-                                    <img src="assets/img/payments/googlepay.png" alt="">
+                                    <img src="assets/img/payments/googlepay.png" alt="googlepay">
                                 </div>
                             </div>
                         </div>
