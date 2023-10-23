@@ -604,7 +604,7 @@
         <div class="section" id="about">
             <div class="container">
                 <div class="card about-card">
-                    <diw class="row">
+                    <div class="row">
                         <div class="col-5">
                             <h2 class="title text-uppercase">Join other Metagames, get points, get prizes</h2>
                             <p class="about-text">
@@ -640,7 +640,7 @@
                                 </form>
                             </div>
                         </div>
-                    </diw>
+                    </div>
                 </div>
             </div>
         </div>
