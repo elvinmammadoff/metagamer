@@ -543,6 +543,7 @@ a:hover {
     justify-content: space-between;
     padding-left: 24px;
     padding-right: 24px;
+    transform: translateY(24px);
 }
 
 /*Update Progress*/
@@ -604,7 +605,6 @@ a:hover {
 .navbar {
     z-index: 2;
     top: 0;
-    transform: translateY(24px);
     padding: 5px 10px;
     border-radius: 30px;
     background: rgba(0, 0, 0, 0.7);
@@ -930,6 +930,10 @@ a:hover {
 .about-card {
     background-color: #222434;
     padding: 3.75rem;
+}
+
+.about-card .row {
+    row-gap: 40px;
 }
 
 .about-text {
@@ -1286,7 +1290,9 @@ a:hover {
 }
 
 .slick-slide img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .slick-dots {
@@ -1294,29 +1300,30 @@ a:hover {
 }
 
 .slick-dots li {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .slick-dots li,
 .slick-dots li button {
-    width: 14px;
-    height: 14px;
+    width: 30px;
+    height: 4px;
 }
 
 .slick-dots li button:before {
-    width: 14px;
-    height: 14px;
-    background-color: transparent;
-    border: 2px solid #fff;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* border: 2px solid #fff; */
     opacity: 1;
     color: transparent;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .slick-dots li.slick-active button:before {
     color: transparent;
-    background-color: #fff;
+    background-color: #10add3;
     border-color: transparent;
     opacity: 1;
 }
@@ -1423,6 +1430,9 @@ a:hover {
 
 .gcard-item img {
     border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .gcard-rating {
@@ -1519,7 +1529,7 @@ a:hover {
 }
 
 .update::after {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .update .container {
@@ -1528,11 +1538,11 @@ a:hover {
 }
 
 .update-img {
-    max-width: 300px;
+    max-width: 290px;
 }
 
 .update-card {
-    background-color: #303141;
+    background-color: rgb(48, 49, 65, .6);
     border: 1px solid #4c4d5a;
     padding: 0 60px 50px;
     border-radius: 10px;
@@ -1550,7 +1560,7 @@ a:hover {
 
 .update-ttl {
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .update-list p {
@@ -1819,6 +1829,33 @@ a:hover {
 
 
 /*Responsive*/
+
+@media (max-width: 576px) {
+    .downloads .row>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .fapps a {
+        width: 100% !important;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        max-width: 90%;
+    }
+
+    .fapps a {
+        width: calc(50% - 20px) !important;
+        flex: 0 0 auto;
+    }
+}
+
 @media (max-width: 992px) {
     .header {
         align-items: flex-start;
@@ -1873,5 +1910,21 @@ a:hover {
         width: 100%;
         border-radius: 0;
         padding: 0;
+    }
+
+    .navbar-toggler {
+        padding: 13px 10px;
+    }
+
+    .update-img {
+        display: none;
+    }
+
+    .subs-form {
+        width: 100%;
+    }
+
+    .fapps a {
+        width: 100%;
     }
 }

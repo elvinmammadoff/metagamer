@@ -434,10 +434,10 @@
             <div class="container">
                 <h2 class="title text-uppercase">Updates</h2>
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-md-12 col-lg-6">
                         <img src="assets/img/character.png" class="update-img" alt="character">
                     </div>
-                    <div class="col-5">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card update-card">
                             <div class="update-symbol">
                                 <i class="icon-bookmark"></i>
@@ -468,22 +468,22 @@
                             </div>
                             <div class="downloads">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <a href="" target="_blank">
                                             <img src="assets/img/downloads/appstore.png" alt="appstore">
                                         </a>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <a href="" target="_blank">
                                             <img src="assets/img/downloads/googleplay.png" alt="googleplay">
                                         </a>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <a href="" target="_blank">
                                             <img src="assets/img/downloads/amazonstore.png" alt="amazonstore">
                                         </a>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6 col-md-6">
                                         <a href="" target="_blank">
                                             <img src="assets/img/downloads/getteam.png" alt="getteam">
                                         </a>
@@ -613,7 +613,7 @@
             <div class="container">
                 <div class="card about-card">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-md-12 col-lg-5">
                             <h2 class="title text-uppercase">Join other Metagames, get points, get prizes</h2>
                             <p class="about-text">
                                 We are a community of millions of Metagames and continue to open doors to new
@@ -637,7 +637,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-7">
+                        <div class="col-md-12 col-lg-7">
                             <div class="subs">
                                 <form action="#" class="subs-form">
                                     <div class="subs-area">
@@ -657,11 +657,11 @@
             <div class="contact-layer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <h2 class="title mb-2 text-uppercase">Let's Get Started</h2>
                             <p class="contact-text">For further info & support contact us.</p>
                         </div>
-                        <div class="col-8 contact-list">
+                        <div class="col-md-8 contact-list">
                             <p class="contact-item"><strong>Office: </strong>Büyükdere Cad., 22A, Istanbul, Turkey</p>
                             <p class="contact-item"><strong>Email: </strong>info@companyname.com</p>
                             <p class="contact-item"><strong>Phone Number: </strong>(+90) 800 123-4567</p>
@@ -672,7 +672,7 @@
             <div class="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <div class="flogo text-uppercase">
                                 <img src="assets/img/logo.svg" alt="logo">
                                 <h3>Metagamer</h3>
@@ -688,7 +688,7 @@
                                 <a href="" target="_blank"><i class="icon-linkedin"></i></a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <h3 class="ftitle text-uppercase">Pages</h3>
                             <ul class="fmenu">
                                 <li><a href="#home">Home</a></li>
@@ -720,7 +720,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4">
                             <h3 class="ftitle text-uppercase">Apps / Platforms</h3>
                             <div class="fapps">
                                 <a href="" target="_blank">
