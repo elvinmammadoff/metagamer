@@ -778,9 +778,9 @@
             </div>
 
             <!-- Scroll Up Start -->
-            <div class="scroll-up">
+            <!-- <div class="scroll-up">
                 <div class="scroll-up__icon"><i class="fa fa-arrow-up"></i></div>
-            </div>
+            </div> -->
             <!-- Scroll Up End -->
         </div>
     </div>

@@ -488,7 +488,7 @@ a:hover {
     top: 0;
     height: 100vh;
     width: 100%;
-    padding: 0;
+    padding: 0 !important;
 }
 
 .content {
@@ -620,7 +620,8 @@ a:hover {
 .navbar-container {
     display: flex;
     align-items: center;
-    column-gap: 33px;
+    column-gap: 20px;
+    row-gap: 10px;
 }
 
 .navbar {
@@ -1228,6 +1229,8 @@ a:hover {
 
 .subs-area {
     display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
     border: 1px solid #ecedee;
     border-radius: 10px;
     padding: 1rem;
@@ -1235,11 +1238,12 @@ a:hover {
 
 .subs-area input,
 .subs-area input:focus {
-    background: none;
+    background: #0fa1c5;
     border: none;
     box-shadow: none;
     color: #fff;
-    padding-left: 0;
+    border-radius: 10px;
+    height: 52px;
 }
 
 .subs-area input::placeholder {
@@ -1260,7 +1264,7 @@ a:hover {
 }
 
 .contact {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
 
 .contact-layer {
@@ -1273,7 +1277,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     column-gap: 3rem;
-    row-gap: 2rem;
+    row-gap: 1rem;
 }
 
 .contact-item {
@@ -1798,12 +1802,17 @@ a:hover {
     color: #c5c5ca;
 }
 
+.update-list ol li {
+    margin-top: 6px;
+}
+
 .update-stats {
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 20px;
+    row-gap: 16px;
     padding: 20px 50px;
     border-radius: 10px;
     margin-top: 20px;
@@ -1938,6 +1947,7 @@ a:hover {
     column-gap: 10px;
     row-gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .fsocial a {
@@ -2039,6 +2049,7 @@ a:hover {
 .fcopy-nav {
     display: flex;
     column-gap: 1.8rem;
+    row-gap: 0.6rem;
 }
 
 .fcopy-nav a {
@@ -2055,6 +2066,15 @@ a:hover {
 
 
 /*Responsive*/
+@media (max-width: 425px) {
+    .update-stats {
+        justify-content: center;
+    }
+
+    .fcopy-nav {
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 576px) {
     .downloads .row>* {
@@ -2073,23 +2093,66 @@ a:hover {
     .navbar.affix {
         width: calc(100% - 72px);
     }
+
+    .subs-area {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
     .carousel-caption {
-        max-width: 90%;
+        max-width: 100%;
+        bottom: 100px;
+    }
+
+    .carousel-ttl h5 {
+        font-size: 30px;
+    }
+
+    .carousel-txt p {
+        font-size: 16px;
+    }
+
+    .carousel-item {
+        padding-right: 90px;
+    }
+
+    .carousel-actions {
+        right: 30px;
     }
 
     .fapps a {
-        width: calc(50% - 20px) !important;
+        width: calc(50% - 10px) !important;
         flex: 0 0 auto;
+    }
+
+    .contact-list {
+        margin-top: 2rem;
+    }
+
+    .section {
+        padding: 50px 0 30px;
+    }
+
+    .update-card {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-card {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .header {
         align-items: flex-start;
         z-index: 2;
+    }
+
+    .navbar {
+        padding: 10px;
     }
 
     .navbar-layout {
