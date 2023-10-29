@@ -22,7 +22,6 @@
 ================================================================================*/
 
 
-
 //======= Mobile Menu Start ========
 //open left menu clicking the left menu icon
 $('.left_menu_icon').on('click', function (event) {
