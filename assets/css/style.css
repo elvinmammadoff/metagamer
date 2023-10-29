@@ -1244,6 +1244,7 @@ a:hover {
     color: #fff;
     border-radius: 10px;
     height: 52px;
+    border: 1px solid #0c98bb;
 }
 
 .subs-area input::placeholder {
@@ -2073,6 +2074,15 @@ a:hover {
 
     .fcopy-nav {
         flex-direction: column;
+    }
+
+    .subs-area {
+        border: none;
+        padding: 0;
+    }
+
+    .subs-form {
+        padding: 2rem 1rem;
     }
 }
 
