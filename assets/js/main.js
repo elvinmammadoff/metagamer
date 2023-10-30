@@ -12,6 +12,7 @@
     |
     |___ Mobile Menu
     |___ Affix Navbar
+    |___ Loading Overlay
     |___ Page Scrolling
     |___ Slick Slider
     |___ Scroll Up
@@ -71,6 +72,13 @@ $(window).on('scroll', function (event) {
     }
 });
 //======= Affix Navbar End ========
+
+
+//======= Loading Overlay Start ========
+$(window).on('load', function () {
+    $('.loading-overlay').fadeOut(100);
+});
+//======= Loading Overlay End ========
 
 
 //======= Page Scrolling Start ========
@@ -145,8 +153,20 @@ $('#games-slider').slick({
 
 
 //======= Scroll Up Start ========
+let bodyH = document.body.offsetHeight;
+let winH = window.innerHeight;
 $(document).on('scroll', function () {
-    if ($(window).scrollTop() > 400) {
+    let scrollH = window.scrollY;
+    let scrollCalc = Math.max(((scrollH + winH) * 100) / bodyH);
+    let scrollPercent = Math.trunc(scrollCalc) + "px";
+    console.log(scrollPercent);
+    document.getElementById("scrollH").style.height = scrollPercent;
+    if (Math.trunc(scrollCalc) > 20) {
+        document.getElementById("scrollH").style.visibility = 'visible';
+    } else {
+        document.getElementById("scrollH").style.visibility = 'hidden';
+    }
+    if ($(window).scrollTop() > 100) {
         $('.scroll-up').addClass('show');
     } else {
         $('.scroll-up').removeClass('show');

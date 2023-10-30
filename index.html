@@ -21,6 +21,16 @@
 </head>
 
 <body>
+
+    <!-- Loading Overlay Start -->
+    <div class="loading-overlay">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Loading Overlay End -->
+
     <div class="layout">
 
         <!--Start Carousel-->
@@ -778,9 +788,10 @@
             </div>
 
             <!-- Scroll Up Start -->
-            <!-- <div class="scroll-up">
-                <div class="scroll-up__icon"><i class="fa fa-arrow-up"></i></div>
-            </div> -->
+            <div class="scroll-up">
+                <span class="scroll-up_text">Back to top</span>
+                <div class="scroll-up_bar" id="scrollH"></div>
+            </div>
             <!-- Scroll Up End -->
         </div>
     </div>
