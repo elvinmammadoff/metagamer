@@ -12,28 +12,32 @@
     <title>METAGAMER - Gaming Landing page</title>
 
     <!-- Stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="assets/css/plugins/slick.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/plugins/slick-theme.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/plugins/touch-sideswipe.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/plugins/touch-sideswipe.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
+        type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
 
-    <!-- Loading Overlay Start -->
+    <!--========== Loading Overlay ==========-->
     <div class="loading-overlay">
         <div class="spinner">
             <div class="double-bounce1"></div>
             <div class="double-bounce2"></div>
         </div>
     </div>
-    <!-- Loading Overlay End -->
 
+
+    <!--========== Hero Layout ==========-->
     <div class="layout">
 
-        <!--Start Carousel-->
+        <!--========== Carousel ==========-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-actions">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -127,12 +131,13 @@
                 </div>
             </div>
         </div>
-        <!--End Carousel-->
 
+
+        <!--========== Home Section ==========-->
         <div class="layer section" id="home">
             <div class="content">
 
-                <!--Start Header-->
+                <!--========== Header ==========-->
                 <div class="position-relative">
                     <div class="container-fluid">
                         <div class="header">
@@ -171,14 +176,16 @@
                         </div>
                     </div>
                 </div>
-                <!--End Header-->
             </div>
         </div>
 
+
+        <!--========== New Challenges Section ==========-->
         <div class="section" id="new-ch">
             <div class="container">
                 <h2 class="title text-uppercase">New - Challenges</h2>
 
+                <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
                     <div class="card shadow-sm">
                         <div class="card-image">
@@ -443,6 +450,7 @@
         </div>
 
 
+        <!--========== Update Section ==========-->
         <div class="section cover update" id="update">
             <div class="container">
                 <h2 class="title text-uppercase">Updates</h2>
@@ -513,6 +521,7 @@
         </div>
 
 
+        <!--========== Game Section ==========-->
         <div class="section" id="games">
             <div class="container">
                 <h2 class="title text-uppercase">Games</h2>
@@ -622,6 +631,7 @@
         </div>
 
 
+        <!--========== About Section ==========-->
         <div class="section" id="about">
             <div class="container">
                 <div class="card about-card">
@@ -666,6 +676,8 @@
             </div>
         </div>
 
+
+        <!--========== Contact Section ==========-->
         <div class="section contact" id="contact">
             <div class="contact-layer">
                 <div class="container">
@@ -787,17 +799,18 @@
                 </div>
             </div>
 
-            <!-- Scroll Up Start -->
-            <div class="scroll-up">
-                <span class="scroll-up_text">Back to top</span>
-                <div class="scroll-up_bar" id="scrollH"></div>
-            </div>
-            <!-- Scroll Up End -->
         </div>
     </div>
 
 
-    <!-- Mobile Menu Start -->
+    <!--========== Scroll Up ==========-->
+    <div class="scroll-up">
+        <span class="scroll-up_text">Back to top</span>
+        <div class="scroll-up_bar" id="scrollH"></div>
+    </div>
+
+
+    <!--========== Mobile Menu ==========-->
     <nav class="cd-nav-container burger-menu" id="cd-nav">
         <div class="rmenu_header">
             <div class="rmenu_header-left">
@@ -816,9 +829,8 @@
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>
     </nav>
+    <div class="cd-overlay"></div>
 
-    <div class="cd-overlay"></div><!-- /.cd-overlay -->
-    <!-- Mobile Menu End -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
