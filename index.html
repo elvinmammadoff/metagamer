@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>METAGAMER - Gaming Landing page</title>
+    <title>MetaGamer - Gaming Landing page</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -144,8 +144,8 @@
                             <nav class="navbar navbar-expand-lg affix-top">
                                 <div class="container-fluid navbar-container">
                                     <a class="navbar-brand page-scroll" href="#home">
-                                        <img src="assets/img/logo.svg" alt="Metagamer">
-                                        <span>METAGAMER</span>
+                                        <img src="assets/img/logo.svg" alt="MetaGamer">
+                                        <span>MetaGamer</span>
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
                                         <span>Menu</span>
@@ -183,7 +183,7 @@
         <!--========== New Challenges Section ==========-->
         <div class="section" id="new-ch">
             <div class="container">
-                <h2 class="title text-uppercase">New - Challenges</h2>
+                <h2 class="title">New - Challenges</h2>
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
@@ -453,7 +453,7 @@
         <!--========== Update Section ==========-->
         <div class="section cover update" id="update">
             <div class="container">
-                <h2 class="title text-uppercase">Updates</h2>
+                <h2 class="title">Updates</h2>
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <img src="assets/img/character.png" class="update-img" alt="character">
@@ -463,8 +463,7 @@
                             <div class="update-symbol">
                                 <i class="icon-bookmark"></i>
                             </div>
-                            <h3 class="update-ttl">FORTNITE REFER A FRIEND 3.0: PLAY TOGETHER FOR IN-GAME
-                                REWARDS!</h3>
+                            <h3 class="update-ttl">Fortnite Refer a friend 3.0: Play together for in-game rewards!</h3>
                             <div class="update-list">
                                 <p>Here’s how to participate!</p>
                                 <ol>
@@ -524,7 +523,7 @@
         <!--========== Game Section ==========-->
         <div class="section" id="games">
             <div class="container">
-                <h2 class="title text-uppercase">Games</h2>
+                <h2 class="title">Games</h2>
                 <div class="gcard" id="games-slider">
                     <a href="" class="gcard-item">
                         <img src="assets/img/games/games-1.jpg" alt="games1">
@@ -637,7 +636,7 @@
                 <div class="card about-card">
                     <div class="row">
                         <div class="col-md-12 col-lg-5">
-                            <h2 class="title text-uppercase">Join other Metagames, get points, get prizes</h2>
+                            <h2 class="title">Join other Metagames, get points, get prizes</h2>
                             <p class="about-text">
                                 We are a community of millions of Metagames and continue to open doors to new
                                 worlds every day. If you're up for a challenge, join us and become #1 in the world!
@@ -683,7 +682,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <h2 class="title mb-2 text-uppercase">Let's Get Started</h2>
+                            <h2 class="title mb-2">Let's Get Started</h2>
                             <p class="contact-text">For further info & support contact us.</p>
                         </div>
                         <div class="col-md-8 contact-list">
@@ -698,14 +697,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="flogo text-uppercase">
+                            <div class="flogo">
                                 <img src="assets/img/logo.svg" alt="logo">
-                                <h3>Metagamer</h3>
+                                <h3>MetaGamer</h3>
                             </div>
                             <p class="ftext">We are a community of millions of Metagames and continue to open doors to
                                 new worlds every day. If you're up for a challenge, join us and become #1 in the world!
                             </p>
-                            <h3 class="ftitle text-uppercase">Follow us on</h3>
+                            <h3 class="ftitle">Follow us on</h3>
                             <div class="fsocial">
                                 <a href="" target="_blank"><i class="icon-facebook"></i></a>
                                 <a href="" target="_blank"><i class="icon-twitter"></i></a>
@@ -714,7 +713,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="ftitle text-uppercase">Pages</h3>
+                            <h3 class="ftitle">Pages</h3>
                             <ul class="fmenu">
                                 <li><a href="#home">Home</a></li>
                                 <li><a href="#new-ch">Challenges</a></li>
@@ -723,7 +722,7 @@
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
-                            <h3 class="ftitle text-uppercase">Payment Methods</h3>
+                            <h3 class="ftitle">Payment Methods</h3>
                             <div class="fpay">
                                 <div class="fpay-item">
                                     <img src="assets/img/payments/visa.png" alt="visa">
@@ -746,7 +745,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <h3 class="ftitle text-uppercase">Apps / Platforms</h3>
+                            <h3 class="ftitle">Apps / Platforms</h3>
                             <div class="fapps">
                                 <a href="" target="_blank">
                                     <i class="icon-appleinc"></i>
@@ -788,7 +787,7 @@
                         </div>
                     </div>
                     <div class="fcopy">
-                        <p class="fcopy-info">Copyright © 2023 METAGAMER - All rights reserved.</p>
+                        <p class="fcopy-info">Copyright © 2023 MetaGamer - All rights reserved.</p>
                         <div class="fcopy-nav">
                             <a href="">Help Center</a>
                             <a href="">Career</a>
@@ -815,8 +814,8 @@
         <div class="rmenu_header">
             <div class="rmenu_header-left">
                 <a class="navbar-brand rmenu_logo" href="#home">
-                    <img src="assets/img/logo.svg" alt="Metagamer">
-                    <span>METAGAMER</span>
+                    <img src="assets/img/logo.svg" alt="MetaGamer">
+                    <span>MetaGamer</span>
                 </a>
                 <div class="cd-close-nav">Close</div>
             </div>
@@ -832,9 +831,6 @@
     <div class="cd-overlay"></div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>

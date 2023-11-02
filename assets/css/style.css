@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 /*
-	Theme Name: METAGAMER
+	Theme Name: MetGamer
 	Theme URI: themeforest.net/user/alissio
 	Author: Alissio
+    Author URI: metagamer.netlify.app
 	Description: Alissio – Game & Gaming HTML Template
 	License: GNU General Public License v2 or later
 	License URI: www.gnu.org/licenses/gpl-2.0.html
@@ -694,7 +695,7 @@ a:hover {
     top: 0;
     left: 0;
     padding: 5px 10px;
-    border-radius: 30px;
+    border-radius: 14px;
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0px 2px 10px 0px #000;
     backdrop-filter: blur(15px);
@@ -1648,6 +1649,10 @@ a:hover {
     display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+.flogo h3 {
+    font-weight: bold;
 }
 
 .flogo img {

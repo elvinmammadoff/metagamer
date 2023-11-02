@@ -9,7 +9,7 @@
 
 /*======
 *
-* METAGAMER Scripts
+* MetaGamer Scripts
 *
 ======*/
 
