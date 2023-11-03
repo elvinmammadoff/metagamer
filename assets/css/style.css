@@ -34,11 +34,12 @@
         5.2 Challenge
         5.3 Games
         5.4 Update
-        5.5 About
-            5.5.1 About General
-            5.5.2 Follow Social
-            5.5.3 Subscribe
-            5.5.4 Contact
+        5.5 Features
+        5.6 About
+            5.6.1 About General
+            5.6.2 Follow Social
+            5.6.3 Subscribe
+            5.6.4 Contact
     6. Footer
     7. Responsive
 
@@ -143,10 +144,6 @@ i {
     content: "\e9da";
 }
 
-.icon-windows:before {
-    content: "\eac2";
-}
-
 .icon-amazon:before {
     content: "\ea87";
 }
@@ -163,12 +160,32 @@ i {
     content: "\eabe";
 }
 
+.icon-windows:before {
+    content: "\eac2";
+}
+
 .icon-windows8:before {
     content: "\eac3";
 }
 
 .icon-paypal:before {
     content: "\ead8";
+}
+
+.icon-bubbles:before {
+    content: "\e96d";
+}
+
+.icon-users:before {
+    content: "\e972";
+}
+
+.icon-cogs:before {
+    content: "\e995";
+}
+
+.icon-trophy:before {
+    content: "\e99e";
 }
 
 
@@ -234,10 +251,46 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.parallax {
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.parallax>* {
+    z-index: 1;
+}
+
 .title {
     color: var(--title-color);
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
     font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.title:after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #10add3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
 }
 
 .row {
@@ -315,6 +368,7 @@ a:hover {
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #00ccff;
+    border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -373,6 +427,7 @@ a:hover {
     position: absolute;
     left: 0;
     width: 2px;
+    border-radius: 10px;
     min-height: 100px;
     background: rgba(255, 255, 255, .2);
 }
@@ -1343,7 +1398,7 @@ a:hover {
 
 .update-symbol {
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .update-symbol i {
@@ -1448,15 +1503,89 @@ a:hover {
 
 
 
-/*====== 5.5 About ======*/
-/*====== 5.5.1 About General ======*/
+/*====== 5.5 Features ======*/
+.feat-info {
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+.feat-info_ttl {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.feat-info_text {
+    color: #fff;
+    opacity: .5;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.feat-name {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.feat-desc {
+    color: #fff;
+    opacity: .6;
+    line-height: 1.5rem;
+}
+
+.feat-card {
+    margin-bottom: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.feat-card i {
+    font-size: 2.2rem;
+    color: #00ccff;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.feat-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.feat-stats_num {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.feat-stats_label {
+    color: #fff;
+    opacity: .4;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+/*====== 5.6 About ======*/
+/*====== 5.6.1 About General ======*/
 .about-card {
-    background-color: #222434;
+    background-image: url('../img/bg-1.jpg');
     padding: 3.75rem;
 }
 
 .about-card .row {
     row-gap: 40px;
+}
+
+.about-ttl {
+    color: var(--title-color);
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .about-text {
@@ -1466,7 +1595,7 @@ a:hover {
 
 
 
-/*====== 5.5.2 Follow Social ======*/
+/*====== 5.6.2 Follow Social ======*/
 .follow {
     margin-top: 2.5rem;
 }
@@ -1507,7 +1636,7 @@ a:hover {
 
 
 
-/*====== 5.5.3 Subscribe ======*/
+/*====== 5.6.3 Subscribe ======*/
 .subs {
     display: flex;
     align-items: center;
@@ -1562,7 +1691,14 @@ a:hover {
 
 
 
-/*====== 4.5.4 Contact ======*/
+/*====== 5.6.4 Contact ======*/
+.contact-ttl {
+    color: var(--title-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .contact-text {
     color: #c5c5ca;
     font-size: 1.2rem;
@@ -1889,6 +2025,10 @@ a:hover {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
+    .feat-info {
+        width: 80% !important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -1969,5 +2109,9 @@ a:hover {
 
     .scroll-up {
         right: 20px
+    }
+
+    .feat-info {
+        width: 90%;
     }
 }

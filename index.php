@@ -163,6 +163,9 @@
                                                     <a class="nav-link" href="#games">Games</a>
                                                 </li>
                                                 <li class="nav-item">
+                                                    <a class="nav-link" href="#features">Features</a>
+                                                </li>
+                                                <li class="nav-item">
                                                     <a class="nav-link" href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
@@ -183,7 +186,7 @@
         <!--========== New Challenges Section ==========-->
         <div class="section" id="new-ch">
             <div class="container">
-                <h2 class="title">New - Challenges</h2>
+                <h2 class="title">New Challenges</h2>
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
@@ -453,7 +456,6 @@
         <!--========== Update Section ==========-->
         <div class="section cover update" id="update">
             <div class="container">
-                <h2 class="title">Updates</h2>
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <img src="assets/img/character.png" class="update-img" alt="character">
@@ -523,7 +525,7 @@
         <!--========== Game Section ==========-->
         <div class="section" id="games">
             <div class="container">
-                <h2 class="title">Games</h2>
+                <h2 class="title">Top Games</h2>
                 <div class="gcard" id="games-slider">
                     <a href="" class="gcard-item">
                         <img src="assets/img/games/games-1.jpg" alt="games1">
@@ -630,13 +632,83 @@
         </div>
 
 
+        <!--========== Game Section ==========-->
+        <div class="section" id="features">
+            <div class="container">
+                <h2 class="title">Incredible Features</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                        <div class="feat-info">
+                            <h3 class="feat-info_ttl">Our Incredible Features will motivate you!</h3>
+                            <p class="feat-info_text">Games are de- signed to be engaging and enjoyable, with features
+                                such as rewards, leveling
+                                up, and social competition, which is all intended to keep players coming back for more.
+                                These features are designed to create a sense of progress and achievement, which can be
+                                highly motivating for players.</p>
+                            <div class="feat-stats">
+                                <div class="feat-stats_item">
+                                    <span class="feat-stats_num">28K</span>
+                                    <h4 class="feat-stats_label">Member</h4>
+                                </div>
+                                <div class="feat-stats_item">
+                                    <span class="feat-stats_num">10K</span>
+                                    <h4 class="feat-stats_label">Game</h4>
+                                </div>
+                                <div class="feat-stats_item">
+                                    <span class="feat-stats_num">147K</span>
+                                    <h4 class="feat-stats_label">Prize</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-7">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="feat-card">
+                                    <i class="icon-cogs"></i>
+                                    <h4 class="feat-name">Quick Setup</h4>
+                                    <p class="feat-desc">Dolor minim in pariatur in deserunt laboris eu pariatur labore
+                                        excepteur cupidatat cupidatat duis dolor in.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="feat-card">
+                                    <i class="icon-users"></i>
+                                    <h4 class="feat-name">Expert Teams</h4>
+                                    <p class="feat-desc">Dolor minim in pariatur in deserunt laboris eu pariatur labore
+                                        excepteur cupidatat cupidatat duis dolor in.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="feat-card">
+                                    <i class="icon-bubbles"></i>
+                                    <h4 class="feat-name">Fast Support</h4>
+                                    <p class="feat-desc">Dolor minim in pariatur in deserunt laboris eu pariatur labore
+                                        excepteur cupidatat cupidatat duis dolor in.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="feat-card">
+                                    <i class="icon-trophy"></i>
+                                    <h4 class="feat-name">Year Experience</h4>
+                                    <p class="feat-desc">Dolor minim in pariatur in deserunt laboris eu pariatur labore
+                                        excepteur cupidatat cupidatat duis dolor in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!--========== About Section ==========-->
         <div class="section" id="about">
             <div class="container">
-                <div class="card about-card">
+                <div class="card about-card parallax">
                     <div class="row">
                         <div class="col-md-12 col-lg-5">
-                            <h2 class="title">Join other Metagames, get points, get prizes</h2>
+                            <h2 class="about-ttl">Join other Metagames, get points, get prizes</h2>
                             <p class="about-text">
                                 We are a community of millions of Metagames and continue to open doors to new
                                 worlds every day. If you're up for a challenge, join us and become #1 in the world!
@@ -682,7 +754,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <h2 class="title mb-2">Let's Get Started</h2>
+                            <h2 class="contact-ttl">Let's Get Started</h2>
                             <p class="contact-text">For further info & support contact us.</p>
                         </div>
                         <div class="col-md-8 contact-list">
@@ -719,6 +791,7 @@
                                 <li><a href="#new-ch">Challenges</a></li>
                                 <li><a href="#update">Updates</a></li>
                                 <li><a href="#games">Games</a></li>
+                                <li><a href="#features">Features</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -824,6 +897,7 @@
             <li><a class="page-scroll" href="#new-ch">Challenges</a></li>
             <li><a class="page-scroll" href="#update">Updates</a></li>
             <li><a class="page-scroll" href="#games">Games</a></li>
+            <li><a class="page-scroll" href="#features">Features</a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>
@@ -831,6 +905,7 @@
     <div class="cd-overlay"></div>
 
 
+    <!-- JavaScripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
