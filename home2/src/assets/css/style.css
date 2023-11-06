@@ -1306,6 +1306,7 @@ a:hover {
     justify-content: center;
     max-width: 80%;
     row-gap: 10px;
+    margin-bottom: 4rem;
 }
 
 .gcard-subject {
@@ -2043,6 +2044,24 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
+    .comm i {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .comm-ttl {
+        font-size: 1.8rem;
+    }
+
+    .comm-text {
+        font-size: 1rem;
+    }
+
+    .comm-link {
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
 
     .rw-content {
         padding: 2rem 1.5rem 1rem;
