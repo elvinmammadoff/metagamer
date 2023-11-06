@@ -149,13 +149,42 @@
 
 
     $('#games-slider').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         infinite: true,
         draggable: true,
-        dots: true,
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+
+
+    $('#review-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
+        draggable: true,
+        dots: false,
         arrows: false,
+        centerMode: true,
         responsive: [
             {
                 breakpoint: 992,

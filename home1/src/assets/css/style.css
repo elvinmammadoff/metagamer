@@ -266,7 +266,7 @@ a:hover {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .parallax>* {
@@ -1045,7 +1045,7 @@ a:hover {
 *
 ======*/
 .slick-list {
-    padding-bottom: 50px;
+    padding-bottom: 50px !important;
 }
 
 .slick-slide {
@@ -1222,8 +1222,8 @@ a:hover {
 
 .user-avatar {
     object-fit: cover;
-    -webkit-transform: scale(2) translateY(17%);
-    transform: scale(2) translateY(17%);
+    -webkit-transform: scale(1.5) translateY(10%);
+    transform: scale(1.5) translateY(10%);
     width: 100%;
     height: 100%;
 }
@@ -1354,8 +1354,8 @@ a:hover {
 
 .gcard-stats_col {
     display: flex;
-    align-items: center;
-    column-gap: 8px;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .gcard-stats_label {
