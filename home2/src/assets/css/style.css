@@ -2042,6 +2042,32 @@ a:hover {
 
 @media (max-width: 768px) {
 
+    .rw-content {
+        padding: 2rem 1.5rem 1rem;
+    }
+
+    .rw-text {
+        font-size: 15px;
+    }
+
+    .rw-card .user-box {
+        width: 34px;
+        min-width: 34px;
+        height: 34px;
+    }
+
+    .rw-author_name {
+        font-size: 15px;
+    }
+
+    .rw-rating {
+        font-size: 1.2rem;
+    }
+
+    .rw-icon {
+        font-size: 1.1rem;
+    }
+
     .parallax,
     .comm {
         background-attachment: scroll;
