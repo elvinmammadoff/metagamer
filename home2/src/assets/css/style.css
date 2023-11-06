@@ -242,6 +242,10 @@ a:hover {
     background: #fff;
 }
 
+.border-0 {
+    border: none;
+}
+
 .cover {
     position: relative;
     background-position: center center;

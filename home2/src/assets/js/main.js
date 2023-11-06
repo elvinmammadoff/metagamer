@@ -185,6 +185,7 @@
         dots: false,
         arrows: false,
         centerMode: true,
+        focusOnSelect: true,
         responsive: [
             {
                 breakpoint: 992,

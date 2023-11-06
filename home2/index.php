@@ -42,16 +42,16 @@
             <div class="carousel-actions">
                 <div class="carousel-indicators">
                     <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1">
+                        aria-current="true">
                         <img class="carousel-img" src="src/assets/img/carousel/slider-4.jpg" alt="slider1">
                     </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
                         <img class="carousel-img" src="src/assets/img/carousel/slider-3.jpg" alt="slider2">
                     </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
-                        <img class="carousel-img" src="src/assets/img/carousel/slider-2.jpg" alt="slider1">
+                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                        <img class="carousel-img" src="src/assets/img/carousel/slider-2.jpg" alt="slider3">
                     </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
+                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
                         <img class="carousel-img" src="src/assets/img/carousel/slider-1.jpg" alt="slider4">
                     </div>
                 </div>
@@ -707,15 +707,15 @@
 
 
         <!--========== Community Modal ==========-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-close">
-                        <i class="icon-close" data-bs-dismiss="modal" aria-label="Close"></i>
+                        <i class="icon-close" data-bs-dismiss="modal"></i>
                     </div>
-                    <iframe width="100%" height="470"
+                    <iframe height="470" class="w-100 border-0"
                         src="https://www.youtube.com/embed/HHBsvKnCkwI?si=LjpPfLhgrigHC0se?autoplay=1"
-                        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                        title="YouTube video player" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
