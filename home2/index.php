@@ -211,7 +211,7 @@
                     <div class="header">
                         <nav class="navbar navbar-expand-lg affix-top">
                             <div class="container">
-                                <div class="container-fluid navbar-container">
+                                <div class="navbar-container">
                                     <a class="navbar-brand page-scroll" href="#home">
                                         <img src="src/assets/img/logo.svg" alt="MetaGamer">
                                         <span>MetaGamer</span>

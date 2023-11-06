@@ -2047,6 +2047,14 @@ a:hover {
         background-attachment: scroll;
     }
 
+    .carousel-indicators [data-bs-target] {
+        width: 80px;
+    }
+
+    .carousel-actions {
+        bottom: 10%;
+    }
+
     .carousel-caption {
         max-width: 85% !important;
     }
