@@ -2035,19 +2035,20 @@ a:hover {
         width: 100%;
     }
 
-    .navbar.affix {
-        width: calc(100% - 72px);
-    }
-
     .subs-area {
         flex-direction: column;
     }
 }
 
 @media (max-width: 768px) {
+
+    .parallax,
+    .comm {
+        background-attachment: scroll;
+    }
+
     .carousel-caption {
-        max-width: 100%;
-        bottom: 100px;
+        max-width: 85% !important;
     }
 
     .carousel-ttl h5 {
@@ -2056,14 +2057,6 @@ a:hover {
 
     .carousel-txt p {
         font-size: 16px;
-    }
-
-    .carousel-item {
-        padding-right: 90px;
-    }
-
-    .carousel-actions {
-        right: 30px;
     }
 
     .fapps a {
@@ -2167,5 +2160,9 @@ a:hover {
 
     .feat-info {
         width: 90%;
+    }
+
+    .carousel-caption {
+        max-width: 70%;
     }
 }
