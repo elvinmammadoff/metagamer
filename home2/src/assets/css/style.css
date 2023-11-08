@@ -40,6 +40,7 @@
             5.6.2 Follow Social
             5.6.3 Subscribe
             5.6.4 Contact
+        5.7 Reviews
     6. Footer
     7. Responsive
 
@@ -208,13 +209,14 @@ i {
 :root {
     --progress-bar-width: 30px;
     --progress-bar-height: 30px;
-    --title-color: #fff;
+    --color-white: #fff;
+    --color-black-1: #000;
 }
 
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    background-color: #000;
+    background-color: var(--color-black-1);
 }
 
 h1,
@@ -239,7 +241,7 @@ a:hover {
     width: 100%;
     height: 1px;
     opacity: 0.3;
-    background: #fff;
+    background: var(--color-white);
 }
 
 .border-0 {
@@ -286,7 +288,7 @@ a:hover {
 }
 
 .title {
-    color: var(--title-color);
+    color: var(--color-white);
     margin-bottom: 3rem;
     font-weight: 700;
     font-size: 2rem;
@@ -329,7 +331,7 @@ a:hover {
 
 .link-outline {
     padding: 4px 14px;
-    color: #fff;
+    color: var(--color-white);
     background-color: rgba(16, 172, 211, 0.2);
     border: 1px solid #10add3;
     text-decoration: none;
@@ -342,12 +344,12 @@ a:hover {
 
 .link-outline:hover {
     box-shadow: 0 0 10px 0px #10add3;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .link-primary {
     padding: 4px 14px;
-    color: #fff;
+    color: var(--color-white);
     background: linear-gradient(to right, #0e6ae6, #10add3);
     border: 1px solid transparent;
     text-decoration: none;
@@ -359,7 +361,7 @@ a:hover {
 }
 
 .link-primary:hover {
-    color: #fff;
+    color: var(--color-white);
     box-shadow: 0 0 10px 0px #0e6ae6;
 }
 
@@ -413,7 +415,7 @@ a:hover {
 }
 
 .scroll-up_text {
-    color: #fff;
+    color: var(--color-white);
     writing-mode: vertical-rl;
     letter-spacing: .75px;
     -webkit-transform: rotate(-180deg);
@@ -450,7 +452,7 @@ a:hover {
 .loading-overlay {
     opacity: 1;
     visibility: visible;
-    background: #000;
+    background: var(--color-black-1);
     position: fixed;
     left: 0;
     top: 0;
@@ -555,7 +557,7 @@ a:hover {
 }
 
 .modal-close i {
-    color: #fff;
+    color: var(--color-white);
     cursor: pointer;
     opacity: .6;
     transition: opacity .3s ease-in-out;
@@ -583,7 +585,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, #000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, var(--color-black-1) 100%);
 }
 
 .carousel-img {
@@ -810,7 +812,7 @@ a:hover {
 }
 
 .navbar-toggler {
-    color: #fff;
+    color: var(--color-white);
     padding: 0;
     margin-top: -4px;
     margin-right: 4px;
@@ -826,7 +828,7 @@ a:hover {
 }
 
 .nav-link {
-    color: #fff;
+    color: var(--color-white);
     font-size: 15px;
     font-weight: 500;
     padding: 24px 20px !important;
@@ -841,7 +843,7 @@ a:hover {
 
 .nav-link:focus,
 .nav-link:active {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .nav-link:hover {
@@ -885,7 +887,7 @@ a:hover {
 
 .rmenu_list li a {
     font-size: 15px;
-    color: #fff;
+    color: var(--color-white);
     display: block;
     padding: 8px 15px;
     letter-spacing: 1px;
@@ -894,13 +896,13 @@ a:hover {
 
 .rmenu_list li a:hover {
     background-color: #121212;
-    color: #fff
+    color: var(--color-white)
 }
 
 .cd-nav-container {
     padding-right: 0;
     width: 100%;
-    background-color: #000;
+    background-color: var(--color-black-1);
     z-index: 1000
 }
 
@@ -956,7 +958,7 @@ a:hover {
     position: absolute;
     right: 0;
     top: 0;
-    color: #fff;
+    color: var(--color-white);
     width: 41px;
     height: 41px;
     font-size: 24px;
@@ -1019,7 +1021,7 @@ a:hover {
 
 .open {
     background: #69513d;
-    color: #fff !important
+    color: var(--color-white) !important
 }
 
 .rmenu_lang {
@@ -1032,7 +1034,7 @@ a:hover {
 }
 
 .rmenu_lang li a {
-    color: #fff;
+    color: var(--color-white);
     letter-spacing: 3px;
     padding: 8px 4px;
     margin: 0 8px;
@@ -1048,7 +1050,7 @@ a:hover {
     display: inline-block;
     margin: 0 4px;
     font-size: 20px;
-    color: #fff;
+    color: var(--color-white);
     padding: 10px
 }
 
@@ -1103,8 +1105,7 @@ a:hover {
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #fff;
-    /* border: 2px solid #fff; */
+    background-color: var(--color-white);
     opacity: 1;
     color: transparent;
     border-radius: 20px;
@@ -1135,7 +1136,7 @@ a:hover {
 }
 
 .card-text {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .card-image {
@@ -1153,7 +1154,7 @@ a:hover {
     display: flex;
     align-items: center;
     column-gap: 6px;
-    color: #fff;
+    color: var(--color-white);
     background-color: #1e1e1e;
     padding: 4px 16px;
     font-size: 13px;
@@ -1162,12 +1163,12 @@ a:hover {
 .card-version {
     padding: 6px 8px;
     background-color: #10add3;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .card-title {
     font-size: 22px;
-    color: var(--title-color);
+    color: var(--color-white);
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -1195,12 +1196,12 @@ a:hover {
 }
 
 .ch-obj_ttl {
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
 }
 
 .ch-obj_text {
-    color: #fff;
+    color: var(--color-white);
     opacity: .5;
     font-size: 12px;
 }
@@ -1225,7 +1226,7 @@ a:hover {
 
 .ch-user_stats strong {
     font-size: 15px;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .user-box {
@@ -1282,11 +1283,11 @@ a:hover {
 
 .ch-prize_amount {
     font-size: 18px;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .ch-prize_text {
-    color: #fff;
+    color: var(--color-white);
     opacity: .5;
     font-size: 12px;
 }
@@ -1311,7 +1312,7 @@ a:hover {
 
 .gcard-subject {
     font-size: 32px;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 600;
     line-height: 42px;
 }
@@ -1359,7 +1360,7 @@ a:hover {
 }
 
 .gcard-rating span {
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
 }
 
@@ -1394,19 +1395,19 @@ a:hover {
 }
 
 .gcard-catg {
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
     opacity: .8;
 }
 
 .gcard-title {
-    color: #fff;
+    color: var(--color-white);
     margin-bottom: 4px;
     font-size: 21px;
 }
 
 .gcard-stats {
-    color: #fff;
+    color: var(--color-white);
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
@@ -1463,7 +1464,7 @@ a:hover {
 }
 
 .comm i {
-    color: #fff;
+    color: var(--color-white);
     font-size: 5rem;
     cursor: pointer;
     transition: color .3s ease-in-out;
@@ -1475,13 +1476,13 @@ a:hover {
 }
 
 .comm-ttl {
-    color: #fff;
+    color: var(--color-white);
     font-weight: bold;
     font-size: 3rem;
 }
 
 .comm-text {
-    color: #fff;
+    color: var(--color-white);
     font-size: 1.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -1495,12 +1496,12 @@ a:hover {
     text-decoration: none;
     border-radius: 10px;
     font-weight: 600;
-    border: 2px solid #fff;
+    border: 2px solid var(--color-white);
     transition: all .3s ease-in-out;
 }
 
 .comm-link:hover {
-    background-color: #fff;
+    background-color: var(--color-white);
     color: #121212;
 }
 
@@ -1513,13 +1514,13 @@ a:hover {
 }
 
 .feat-info_ttl {
-    color: #fff;
+    color: var(--color-white);
     font-weight: 600;
     margin-bottom: 2rem;
 }
 
 .feat-info_text {
-    color: #fff;
+    color: var(--color-white);
     opacity: .5;
     line-height: 1.5rem;
     margin-bottom: 2.5rem;
@@ -1527,14 +1528,14 @@ a:hover {
 
 .feat-name {
     font-size: 1.3rem;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 1rem;
 }
 
 .feat-desc {
-    color: #fff;
+    color: var(--color-white);
     opacity: .6;
     line-height: 1.5rem;
 }
@@ -1561,13 +1562,13 @@ a:hover {
 }
 
 .feat-stats_num {
-    color: #fff;
+    color: var(--color-white);
     font-size: 1.8rem;
     font-weight: 700;
 }
 
 .feat-stats_label {
-    color: #fff;
+    color: var(--color-white);
     opacity: .4;
     font-size: .9rem;
     font-weight: 600;
@@ -1585,7 +1586,7 @@ a:hover {
 }
 
 .about-ttl {
-    color: var(--title-color);
+    color: var(--color-white);
     margin-bottom: 3rem;
     font-weight: 700;
     font-size: 2rem;
@@ -1629,12 +1630,12 @@ a:hover {
 .follow-list a:hover {
     border: 1px solid #10add3;
     background-color: #10add3;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .follow-title {
     font-size: 1.25rem;
-    color: var(--title-color);
+    color: var(--color-white);
 }
 
 
@@ -1657,7 +1658,7 @@ a:hover {
 }
 
 .subs-text {
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
 }
 
@@ -1675,14 +1676,14 @@ a:hover {
     background: #0fa1c5;
     border: none;
     box-shadow: none;
-    color: #fff;
+    color: var(--color-white);
     border-radius: 10px;
     height: 52px;
     border: 1px solid #0c98bb;
 }
 
 .subs-area input::placeholder {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .subs-area button {
@@ -1696,7 +1697,7 @@ a:hover {
 
 /*====== 5.6.4 Contact ======*/
 .contact-ttl {
-    color: var(--title-color);
+    color: var(--color-white);
     margin-bottom: 1rem;
     font-weight: 700;
     font-size: 2rem;
@@ -1728,7 +1729,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     row-gap: 4px;
-    color: #fff;
+    color: var(--color-white);
     font-size: 1rem;
 }
 
@@ -1740,7 +1741,7 @@ a:hover {
 
 
 
-/*====== 5.7 About ======*/
+/*====== 5.7 Reviews ======*/
 .rw-content {
     background-color: #121212;
     padding: 3rem 2.5rem 2rem;
@@ -1771,12 +1772,12 @@ a:hover {
     font-weight: 500;
     margin-bottom: 0.5rem;
     display: inline-block;
-    color: #fff;
+    color: var(--color-white);
     opacity: .3;
 }
 
 .rw-text {
-    color: #fff;
+    color: var(--color-white);
     font-size: 1rem;
     margin-bottom: 2rem;
     font-weight: 300;
@@ -1796,7 +1797,7 @@ a:hover {
 }
 
 .rw-author_name {
-    color: #fff;
+    color: var(--color-white);
     font-weight: 600;
 }
 
@@ -1866,13 +1867,13 @@ a:hover {
 
 .ftitle {
     font-size: 22px;
-    color: #fff;
+    color: var(--color-white);
     font-weight: 500;
     margin-bottom: 1.3rem;
 }
 
 .ftext {
-    color: #fff;
+    color: var(--color-white);
     opacity: .5;
     line-height: 1.5rem;
     margin-bottom: 2rem;
@@ -1906,7 +1907,7 @@ a:hover {
 
 .fsocial a:hover {
     background-color: #10add3;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .fapps {
@@ -1924,7 +1925,7 @@ a:hover {
     display: flex;
     align-items: center;
     column-gap: 1rem;
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
     border-radius: 4px;
     transition: all .3s ease-in-out;
@@ -1941,7 +1942,7 @@ a:hover {
 .fapps a:hover {
     background-color: #10add3;
     border-color: #10add3;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .fpay {
@@ -1981,7 +1982,7 @@ a:hover {
 }
 
 .fcopy-info {
-    color: #fff;
+    color: var(--color-white);
 }
 
 .fcopy-nav {
@@ -1991,7 +1992,7 @@ a:hover {
 }
 
 .fcopy-nav a {
-    color: #fff;
+    color: var(--color-white);
     text-decoration: none;
     font-size: 15px;
     transition: all .3s ease-in-out;
