@@ -226,13 +226,16 @@
                                                     <a class="nav-link" href="#features">Features</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link page-scroll" href="#newch">Challenges</a>
+                                                    <a class="nav-link" href="#newch">Challenges</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="#games">Games</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#community">Community</a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a class="nav-link" href="#reviews">Reviews</a>
@@ -868,6 +871,7 @@
                                 <li><a href="#newch">Challenges</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#games">Games</a></li>
+                                <li><a href="#community">Community</a></li>
                                 <li><a href="#reviews">Reviews</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -974,6 +978,7 @@
             <li><a class="page-scroll" href="#newch">Challenges</a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#games">Games</a></li>
+            <li><a class="page-scroll" href="#community">Community</a></li>
             <li><a class="page-scroll" href="#reviews">Reviews</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>

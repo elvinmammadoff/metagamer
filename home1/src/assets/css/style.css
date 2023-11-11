@@ -1849,7 +1849,7 @@ a:hover {
 
 .fapps a {
     border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     text-decoration: none;
     width: calc(50% - 10px);
     display: flex;

@@ -788,6 +788,7 @@ a:hover {
     padding: 0;
     background: rgba(0, 0, 0, 0.5);
     transition: background .5s ease-in-out;
+    backdrop-filter: blur(5px);
 }
 
 .navbar.affix {
@@ -1746,6 +1747,7 @@ a:hover {
     background-color: #121212;
     padding: 3rem 2.5rem 2rem;
     border-radius: 14px;
+    border: 2px solid #212529;
 }
 
 .rw-top {
@@ -1919,7 +1921,7 @@ a:hover {
 
 .fapps a {
     border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     text-decoration: none;
     width: calc(50% - 10px);
     display: flex;
