@@ -211,6 +211,12 @@
             <li><strong>touch-sideswipe.css</strong> widget-library for mobile navbar (vanilla js and little bit pure
               css)</li>
 
+            <li><strong>aos.js</strong> is a small library to animate elements on your page as you scroll.<br>You may
+              say it's like WOWJS, yeah - you're right, effect is similar to WOWJS, but I had a different idea how to
+              make such a plugin, so here it is. CSS3 driven scroll animation library.<br>AOS allows you to animate
+              elements as you scroll down, and up. If you scroll back to top, elements will animate to it's previous
+              state and are ready to animate again if you scroll down.</li>
+
             <li><strong>style.css</strong> — custom style file.</li>
 
           </ul>
@@ -349,6 +355,7 @@ i {
         |-- slick.css
         |-- slick-theme.css
         |-- touch-sideswipe.css
+        |-- aos.css
   </code>
 </pre>
 
@@ -386,6 +393,12 @@ i {
 
             <li><strong>slick.min.js</strong> is a responsive carousel jQuery plugin that supports multiple breakpoints,
               CSS3 transitions, touch events/swiping & much more.</li>
+
+            <li><strong>aos.js</strong> is a small library to animate elements on your page as you scroll.<br>You may
+              say it's like WOWJS, yeah - you're right, effect is similar to WOWJS, but I had a different idea how to
+              make such a plugin, so here it is. CSS3 driven scroll animation library.<br>AOS allows you to animate
+              elements as you scroll down, and up. If you scroll back to top, elements will animate to it's previous
+              state and are ready to animate again if you scroll down.</li>
 
             <li><strong>main.js</strong> contains all the custom programmed javascript coded specifically for this
               template.
@@ -501,7 +514,8 @@ function scrollToTop() {
         |-- jquery-2.1.1.min.js  
         |-- jquery.mousewheel.min.js
         |-- jquery.easing.min.js      
-        |-- slick.min.js
+        |-- slick.min.js  
+        |-- aos.js
   </code>
 </pre>
 
@@ -627,7 +641,7 @@ function scrollToTop() {
 
           <pre class="css">
 
-  V. 1.0.0 – 4.11.2023
+  V. 1.0.0 – 13.11.2023
   - Initial release
 </pre>
         </section>

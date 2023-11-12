@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="src/assets/css/plugins/slick.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/slick-theme.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/touch-sideswipe.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
         type="text/css">
@@ -37,94 +38,27 @@
     <!--========== Hero Layout ==========-->
     <div class="layout">
 
-        <!--========== Carousel ==========-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-actions">
-                <div class="carousel-indicators">
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true">
-                        <img class="carousel-img" src="src/assets/img/carousel/slider-4.jpg" alt="slider1">
-                    </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
-                        <img class="carousel-img" src="src/assets/img/carousel/slider-3.jpg" alt="slider2">
-                    </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
-                        <img class="carousel-img" src="src/assets/img/carousel/slider-2.jpg" alt="slider3">
-                    </div>
-                    <div data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3">
-                        <img class="carousel-img" src="src/assets/img/carousel/slider-1.jpg" alt="slider4">
-                    </div>
+        <!--========== Video Content ==========-->
+        <div class="video-layout">
+            <div class="video-gradient"></div>
+            <video loop autoPlay muted class="video-bg" src="./src/assets/video/video-game.mp4"></video>
+            <div class="video-container container">
+                <div class="video-content">
+                    <h2 class="video-title" data-aos="fade-up" data-aos-duration="2000">Welcome to the MetaGamer
+                        Multiverse</h2>
+                    <p class="video-desc" data-aos="fade-up" data-aos-duration="2200">
+                        We are a community of millions of Metagames and continue to open doors
+                        to new worlds every day. If you're up for a challenge,
+                        join us and become #1 in the world!
+                    </p>
+                    <a href="" class="video-link link-primary" data-aos="fade-up" data-aos-duration="2400">Join
+                        Challenges</a>
                 </div>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="carousel-img" src="src/assets/img/carousel/slider-4.jpg" alt="slider1">
-                    <div class="carousel-container container">
-                        <div class="carousel-caption">
-                            <div class="carousel-ttl">
-                                <h5>Play trending games everywhere.</h5>
-                            </div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-                                    massa mi.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="carousel-img" src="src/assets/img/carousel/slider-3.jpg" alt="slider2">
-                    <div class="carousel-container">
-                        <div class="carousel-caption">
-                            <div class="carousel-ttl">
-                                <h5>Connect and enjoy with team.</h5>
-                            </div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="carousel-img" src="src/assets/img/carousel/slider-2.jpg" alt="slider1">
-                    <div class="carousel-container">
-                        <div class="carousel-caption">
-                            <div class="carousel-ttl">
-                                <h5>Feel no limits power.</h5>
-                            </div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="carousel-img" src="src/assets/img/carousel/slider-1.jpg" alt="slider2">
-                    <div class="carousel-container">
-                        <div class="carousel-caption">
-                            <div class="carousel-ttl">
-                                <h5>Free cloud gaming experience.</h5>
-                            </div>
-                            <div class="carousel-txt">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-                                    hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-                                    ultrices mauris.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="video-img">
+                    <div class="video-img_item video-img_1" data-aos="zoom-in" data-aos-duration="2000"></div>
+                    <div class="video-img_item video-img_2" data-aos="zoom-in" data-aos-duration="2200"></div>
+                    <div class="video-img_item video-img_3" data-aos="zoom-in" data-aos-duration="2400"></div>
+                    <div class="video-img_item video-img_4" data-aos="zoom-in" data-aos-duration="2600"></div>
                 </div>
             </div>
         </div>
@@ -190,7 +124,7 @@
         <div class="section" id="games">
             <div class="container">
                 <h2 class="title">Top Games</h2>
-                <div class="gcard" id="games-slider">
+                <div class="gcard" id="games-slider" data-aos="fade-up" data-aos-duration="2000">
                     <a href="" class="gcard-item">
                         <img src="src/assets/img/games/games-1.jpg" alt="games1">
                         <div class="gcard_details">
@@ -306,8 +240,8 @@
             <div class="container">
                 <h2 class="title">Incredible Features</h2>
                 <div class="row">
-                    <div class="col-md-12 col-lg-3">
-                        <div class="feat-card">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="feat-card" data-aos="fade-up">
                             <i class="icon-cogs"></i>
                             <h4 class="feat-name">Quick Setup</h4>
                             <p class="feat-desc">
@@ -315,15 +249,32 @@
                                 excepteur cupidatat cupidatat duis dolor in.</p>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-3">
-                        <div class="feat-card">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="feat-card" data-aos="fade-up">
                             <i class="icon-users"></i>
                             <h4 class="feat-name">Expert Teams</h4>
                             <p class="feat-desc">Lorem ipsum dolor sitamet const adipiscng Duis eletum
                                 sollicitudin is yaugue euismods</p>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-3">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="feat-card" data-aos="fade-up">
+                            <i class="icon-bubbles"></i>
+                            <h4 class="feat-name">Fast Support</h4>
+                            <p class="feat-desc">Lorem ipsum dolor sitamet const adipiscng Duis eletum
+                                sollicitudin is yaugue euismods.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="feat-card" data-aos="fade-up">
+                            <i class="icon-trophy"></i>
+                            <h4 class="feat-name">Year Experience</h4>
+                            <p class="feat-desc">
+                                Dolor minim in pariatur in deserunt laboris eu pariatur labore
+                                excepteur cupidatat cupidatat duis dolor in.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
                             <i class="icon-bubbles"></i>
                             <h4 class="feat-name">Fast Support</h4>
@@ -331,7 +282,7 @@
                                 sollicitudin is yaugue euismods.</p>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-3">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
                             <i class="icon-trophy"></i>
                             <h4 class="feat-name">Year Experience</h4>
@@ -340,24 +291,7 @@
                                 excepteur cupidatat cupidatat duis dolor in.</p>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-3">
-                        <div class="feat-card">
-                            <i class="icon-bubbles"></i>
-                            <h4 class="feat-name">Fast Support</h4>
-                            <p class="feat-desc">Lorem ipsum dolor sitamet const adipiscng Duis eletum
-                                sollicitudin is yaugue euismods.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-3">
-                        <div class="feat-card">
-                            <i class="icon-trophy"></i>
-                            <h4 class="feat-name">Year Experience</h4>
-                            <p class="feat-desc">
-                                Dolor minim in pariatur in deserunt laboris eu pariatur labore
-                                excepteur cupidatat cupidatat duis dolor in.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-3">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
                             <i class="icon-cogs"></i>
                             <h4 class="feat-name">Quick Setup</h4>
@@ -366,7 +300,7 @@
                                 excepteur cupidatat cupidatat duis dolor in.</p>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-3">
+                    <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
                             <i class="icon-users"></i>
                             <h4 class="feat-name">Expert Teams</h4>
@@ -382,7 +316,8 @@
         <!--========== Community Section ==========-->
         <div class="section" id="community">
             <div class="container">
-                <div class="comm">
+                <h2 class="title">Community</h2>
+                <div class="comm" data-aos="fade-up" data-aos-duration="2000">
                     <i class="icon-play" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                     <h2 class="comm-ttl">Join the Community</h2>
                     <p class="comm-text">Join our Discord Community</p>
@@ -414,7 +349,7 @@
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-1.png" alt="game1">
                             <div class="card-image_over">
@@ -464,7 +399,7 @@
                             <a href="#" class="link-primary">Join</a>
                         </div>
                     </div>
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-2.png" alt="game2">
                             <div class="card-image_over">
@@ -500,7 +435,7 @@
                             <a href="#" class="link-primary">Join</a>
                         </div>
                     </div>
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-3.png" alt="game3">
                             <div class="card-image_over">
@@ -536,7 +471,7 @@
                             <a href="#" class="link-primary">Join</a>
                         </div>
                     </div>
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-4.png" alt="game4">
                             <div class="card-image_over">
@@ -586,7 +521,7 @@
                             <a href="#" class="link-primary">Join</a>
                         </div>
                     </div>
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-1.png" alt="game1">
                             <div class="card-image_over">
@@ -622,7 +557,7 @@
                             <a href="#" class="link-primary">Join</a>
                         </div>
                     </div>
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-image">
                             <img src="src/assets/img/thumb/game-2.png" alt="game2">
                             <div class="card-image_over">
@@ -680,7 +615,8 @@
         <!--========== About Section ==========-->
         <div class="section" id="about">
             <div class="container">
-                <div class="card about-card parallax">
+                <h2 class="title">About</h2>
+                <div class="card about-card parallax" data-aos="fade-up" data-aos-duration="2000">
                     <h2 class="about-ttl">Subscribe to our newsletter</h2>
                     <p class="about-text">Join other Metagames, get points, get prizes</p>
                     <p class="about-note">Games are de- signed to be engaging and enjoyable, with features
@@ -698,23 +634,6 @@
                             <p class="subs-text">Your email is safe with us. We don't spam.</p>
                         </form>
                     </div>
-                    <!-- <div class="follow">
-                        <h3 class="follow-title">Follow our Metagames on</h3>
-                        <div class="follow-list">
-                            <a href="" target="_blank">
-                                <i class="icon-facebook"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="icon-twitter"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="icon-instagram"></i>
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -724,14 +643,14 @@
         <div class="section" id="news">
             <div class="container">
                 <h2 class="title">News & Promo</h2>
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
                     <div class="col-md-6">
                         <div class="news-card">
-                            <div class="news-cover" style="background-image: url('./src/assets/img/news/news-2.jpg');">
+                            <div class="news-cover news-cover_1">
                             </div>
                             <div class="news-content">
                                 <h3 class="news-title">
-                                    Final Fantasy VII
+                                    Final Fantasy VII Remake has a Scene that will Assuredly Confuse New Players
                                 </h3>
                                 <p class="news-desc">
                                     Since launch, I’ve been playing a ton of Final Fantasy VII Remake, taking only short
@@ -747,7 +666,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="news-card">
-                            <div class="news-cover" style="background-image: url('./src/assets/img/news/news-1.jpg');">
+                            <div class="news-cover news-cover_2">
                             </div>
                             <div class="news-content">
                                 <h3 class="news-title">
@@ -777,7 +696,7 @@
                 <h2 class="title">Player Reviews</h2>
 
                 <!--========== Custom Slick Slider ==========-->
-                <div id="review-slider">
+                <div id="review-slider" data-aos="fade-up" data-aos-duration="2000">
                     <div class="card rw-card shadow-sm">
                         <div class="rw-content">
                             <div class="rw-top">
@@ -1055,6 +974,7 @@
     <script src="src/assets/js/plugins/jquery.mousewheel.min.js"></script>
     <script src="src/assets/js/plugins/jquery.easing.min.js"></script>
     <script src="src/assets/js/plugins/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="src/assets/js/main.js"></script>
 </body>
 
