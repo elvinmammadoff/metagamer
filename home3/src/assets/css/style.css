@@ -2334,6 +2334,10 @@ a:hover {
     .about-note {
         width: 100%;
     }
+
+    .video-bg {
+        object-fit: contain;
+    }
 }
 
 @media (max-width: 767px) {
