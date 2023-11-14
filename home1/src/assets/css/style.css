@@ -35,11 +35,12 @@
         5.3 Games
         5.4 Update
         5.5 Features
-        5.6 About
-            5.6.1 About General
-            5.6.2 Follow Social
-            5.6.3 Subscribe
-            5.6.4 Contact
+        5.6 Tournament
+        5.7 About
+            5.7.1 About General
+            5.7.2 Follow Social
+            5.7.3 Subscribe
+            5.7.4 Contact
     6. Footer
     7. Responsive
 
@@ -293,6 +294,13 @@ a:hover {
     border-radius: 10px;
 }
 
+.desc {
+    color: #fff;
+    opacity: .5;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
 .row {
     margin-top: 0;
 }
@@ -498,6 +506,19 @@ a:hover {
 .loading-overlay .double-bounce2 {
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
 }
 
 @-webkit-keyframes sk-bounce {
@@ -1570,8 +1591,153 @@ a:hover {
     font-weight: 600;
 }
 
-/*====== 5.6 About ======*/
-/*====== 5.6.1 About General ======*/
+
+
+/*====== 5.6 Tournament ======*/
+.pw-list {
+    padding: 2rem 8rem;
+}
+
+.pw-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    border: 2px solid #6c757d;
+    border-radius: 16px;
+    padding: 4rem 2rem;
+    background-color: #121a23;
+    background-image: -webkit-linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.3) 100%);
+    padding: 3rem 2rem 2rem;
+    border-radius: 14px;
+    border: 2px solid rgba(76, 76, 76, 0.2);
+}
+
+.pw-card:hover {
+    background-image: -webkit-linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.8) 100%);
+}
+
+.pw-list .row > div:nth-child(2) {
+    transform: translateY(-1.5rem);
+}
+
+.pw-avatar_circle {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    height: 76px;
+    min-width: 76px;
+    overflow: hidden;
+    width: 76px;
+    position: relative;
+}
+
+.pw-avatar_circle img {
+    object-fit: cover;
+    -webkit-transform: scale(1.2) translateY(0%);
+    transform: scale(1.2) translateY(0%);
+    width: 100%;
+    height: 100%;
+}
+
+.pw-avatar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pw-avatar_bg {
+    position: absolute;
+    width: 80%;
+}
+
+.pw-card:hover .pw-avatar_bg {
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+
+.pw-place {
+    background: linear-gradient(to bottom, rgb(14 106 230 / 30%), rgb(16 173 211 / 60%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 38px;
+    min-width: 38px;
+    height: 34px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pw-place sup {
+    top: -2px;
+    left: 1px;
+    font-size: .7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.pw-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pw-prize {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.pw-prize img {
+    width: 20px;
+}
+
+.pw-prize_amount {
+    color: #9b9b9b;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.pw-credit {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 0.6rem;
+}
+
+.pw-credit img {
+    width: 18px;
+}
+
+.pw-credit_amount {
+    color: #10add3;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pw-link {
+    padding: 10px 18px;
+}
+
+
+
+/*====== 5.7 About ======*/
+/*====== 5.7.1 About General ======*/
 .about-card {
     background-image: url('../img/bg-1.jpg');
     padding: 3.75rem;
@@ -1595,7 +1761,7 @@ a:hover {
 
 
 
-/*====== 5.6.2 Follow Social ======*/
+/*====== 5.7.2 Follow Social ======*/
 .follow {
     margin-top: 2.5rem;
 }
@@ -1636,7 +1802,7 @@ a:hover {
 
 
 
-/*====== 5.6.3 Subscribe ======*/
+/*====== 5.7.3 Subscribe ======*/
 .subs {
     display: flex;
     align-items: center;
@@ -1691,7 +1857,7 @@ a:hover {
 
 
 
-/*====== 5.6.4 Contact ======*/
+/*====== 5.7.4 Contact ======*/
 .contact-ttl {
     color: var(--title-color);
     margin-bottom: 1rem;
@@ -1939,95 +2105,9 @@ a:hover {
 * 7. Responsive
 *
 ======*/
-@media (max-width: 425px) {
-    .update-stats {
-        justify-content: center;
-    }
-
-    .fcopy-nav {
-        flex-direction: column;
-    }
-
-    .subs-area {
-        border: none;
-        padding: 0;
-    }
-
-    .subs-form {
-        padding: 2rem 1rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .downloads .row>* {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-    .fapps a {
-        width: 100% !important;
-    }
-
-    .navbar {
-        width: 100%;
-    }
-
-    .navbar.affix {
-        width: calc(100% - 72px);
-    }
-
-    .subs-area {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 768px) {
-    .carousel-caption {
-        max-width: 100%;
-        bottom: 100px;
-    }
-
-    .carousel-ttl h5 {
-        font-size: 30px;
-    }
-
-    .carousel-txt p {
-        font-size: 16px;
-    }
-
-    .carousel-item {
-        padding-right: 90px;
-    }
-
-    .carousel-actions {
-        right: 30px;
-    }
-
-    .fapps a {
-        width: calc(50% - 10px) !important;
-        flex: 0 0 auto;
-    }
-
-    .contact-list {
-        margin-top: 2rem;
-    }
-
-    .section {
-        padding: 100px 0 0;
-    }
-
-    .update-card {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .about-card {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .feat-info {
-        width: 80% !important;
+@media (max-width: 1199px) {
+    .pw-list {
+        padding: 2rem 4rem;
     }
 }
 
@@ -2074,9 +2154,6 @@ a:hover {
 
     .nav-item:first-child .nav-link {
         padding-left: 8px !important;
-    }
-
-    .nav-item:first-child .nav-link {
         border-radius: 0;
     }
 
@@ -2113,5 +2190,127 @@ a:hover {
 
     .feat-info {
         width: 90%;
+    }
+
+    .pw-list .row > div:nth-child(2) {
+        transform: translateY(0);
+    }
+
+    .pw-card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-caption {
+        max-width: 100%;
+        bottom: 100px;
+    }
+
+    .carousel-ttl h5 {
+        font-size: 30px;
+    }
+
+    .carousel-txt p {
+        font-size: 16px;
+    }
+
+    .carousel-item {
+        padding-right: 90px;
+    }
+
+    .carousel-actions {
+        right: 30px;
+    }
+
+    .fapps a {
+        width: calc(50% - 10px);
+        flex: 0 0 auto;
+    }
+
+    .contact-list {
+        margin-top: 2rem;
+    }
+
+    .section {
+        padding: 100px 0 0;
+    }
+
+    .update-card {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .about-card {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .feat-info {
+        width: 100%;
+    }
+
+    .pw-avatar_bg {
+        width: 55%;
+    }
+}
+
+@media (max-width: 576px) {
+    .downloads .row>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar.affix {
+        width: calc(100% - 72px);
+    }
+
+    .subs-area,
+    .fcopy-nav {
+        flex-direction: column;
+    }
+
+    .fcopy-nav a {
+        padding: 2px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .pw-avatar_bg {
+        width: 60%;
+    }
+
+    .pw-list {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .update-stats {
+        justify-content: center;
+    }
+
+    .fcopy-nav {
+        flex-direction: column;
+    }
+
+    .subs-area {
+        border: none;
+        padding: 0;
+    }
+
+    .subs-form {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .fapps a,
+    .fpay-item {
+        width: 100%;
     }
 }

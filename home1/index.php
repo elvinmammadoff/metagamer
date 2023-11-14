@@ -166,6 +166,9 @@
                                                     <a class="nav-link" href="#features">Features</a>
                                                 </li>
                                                 <li class="nav-item">
+                                                    <a class="nav-link" href="#tournament">Tournament</a>
+                                                </li>
+                                                <li class="nav-item">
                                                     <a class="nav-link" href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
@@ -637,7 +640,7 @@
             <div class="container">
                 <h2 class="title">Incredible Features</h2>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-5">
+                    <div class="col-md-12 col-lg-5">
                         <div class="feat-info">
                             <h3 class="feat-info_ttl">Our Incredible Features will motivate you!</h3>
                             <p class="feat-info_text">Games are de- signed to be engaging and enjoyable, with features
@@ -661,9 +664,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-7">
+                    <div class="col-md-12 col-lg-7">
                         <div class="row">
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-cogs"></i>
                                     <h4 class="feat-name">Quick Setup</h4>
@@ -671,7 +674,7 @@
                                         excepteur cupidatat cupidatat duis dolor in.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-users"></i>
                                     <h4 class="feat-name">Expert Teams</h4>
@@ -679,7 +682,7 @@
                                         excepteur cupidatat cupidatat duis dolor in.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-bubbles"></i>
                                     <h4 class="feat-name">Fast Support</h4>
@@ -687,13 +690,89 @@
                                         excepteur cupidatat cupidatat duis dolor in.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-trophy"></i>
                                     <h4 class="feat-name">Year Experience</h4>
                                     <p class="feat-desc">Dolor minim in pariatur in deserunt laboris eu pariatur labore
                                         excepteur cupidatat cupidatat duis dolor in.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--========== Tournament Section ==========-->
+        <div class="section" id="tournament">
+            <div class="container">
+                <h2 class="title">Players Of The Week</h2>
+                <p class="desc">We take a look at the best player of the week awarded on Monday for previous Monday to Sunday</p>
+                <div class="pw-list">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="pw-card">
+                                <div class="pw-avatar">
+                                    <img src="./src/assets/img/avatar-circle.png" alt="" class="pw-avatar_bg">
+                                    <div class="pw-avatar_circle">
+                                        <img src="./src/assets/img/user/user-1.jpg" alt="">
+                                    </div>
+                                    <div class="pw-place">1 <sup>st</sup></div>
+                                </div>
+                                <h3 class="pw-name">Ana Rhodes</h3>
+                                <div class="pw-prize">
+                                    <img src="src/assets/img/coin.png" alt="coin">
+                                    <h4 class="pw-prize_amount">2000 coin prize</h4>
+                                </div>
+                                <div class="pw-credit">
+                                    <img src="src/assets/img/prize.svg" alt="prize">
+                                    <h4 class="pw-credit_amount">+ 20 credits</h4>
+                                </div>
+                                <a href="" class="pw-link link-primary">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="pw-card">
+                                <div class="pw-avatar">
+                                    <img src="./src/assets/img/avatar-circle.png" alt="" class="pw-avatar_bg">
+                                    <div class="pw-avatar_circle">
+                                        <img src="./src/assets/img/user/user-2.jpg" alt="">
+                                    </div>
+                                    <div class="pw-place">2 <sup>nd</sup></div>
+                                </div>
+                                <h3 class="pw-name">Adria Casey</h3>
+                                <div class="pw-prize">
+                                    <img src="src/assets/img/coin.png" alt="coin">
+                                    <h4 class="pw-prize_amount">2000 coin prize</h4>
+                                </div>
+                                <div class="pw-credit">
+                                    <img src="src/assets/img/prize.svg" alt="prize">
+                                    <h4 class="pw-credit_amount">+ 20 credits</h4>
+                                </div>
+                                <a href="" class="pw-link link-primary">View Profile</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="pw-card">
+                                <div class="pw-avatar">
+                                    <img src="./src/assets/img/avatar-circle.png" alt="" class="pw-avatar_bg">
+                                    <div class="pw-avatar_circle">
+                                        <img src="./src/assets/img/user/user-9.jpg" alt="">
+                                    </div>
+                                    <div class="pw-place">3 <sup>rd</sup></div>
+                                </div>
+                                <h3 class="pw-name">Morris Clarke</h3>
+                                <div class="pw-prize">
+                                    <img src="src/assets/img/coin.png" alt="coin">
+                                    <h4 class="pw-prize_amount">2000 coin prize</h4>
+                                </div>
+                                <div class="pw-credit">
+                                    <img src="src/assets/img/prize.svg" alt="prize">
+                                    <h4 class="pw-credit_amount">+ 20 credits</h4>
+                                </div>
+                                <a href="" class="pw-link link-primary">View Profile</a>
                             </div>
                         </div>
                     </div>
@@ -792,6 +871,7 @@
                                 <li><a href="#update">Updates</a></li>
                                 <li><a href="#games">Games</a></li>
                                 <li><a href="#features">Features</a></li>
+                                <li><a href="#tournament">Tournament</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -898,6 +978,7 @@
             <li><a class="page-scroll" href="#update">Updates</a></li>
             <li><a class="page-scroll" href="#games">Games</a></li>
             <li><a class="page-scroll" href="#features">Features</a></li>
+            <li><a class="page-scroll" href="#tournament">Tournament</a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>

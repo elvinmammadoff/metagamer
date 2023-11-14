@@ -161,6 +161,9 @@
       <!--========== Game Section ==========-->
       <div class="section" id="games">...</div>
       
+      <!--========== Tournament Section ==========-->
+      <div class="section" id="tournament">...</div>
+      
       <!--========== About Section ==========-->
       <div class="section" id="about">...</div>
 
@@ -238,31 +241,32 @@
 /* ========================
 
 [Index]
-    1. Global
-		1.1 Icomoon Custom Icon Font
-		1.2 General
-		1.3 Scrollbar
-		1.4 Scroll Up
-		1.5 Loading Overlay
-    2. Carousel
-    3. Header
-		3.1 Header General
-		3.2 Navbar
-		3.3 Mobile Right Menu
-    4. Custom Slick Slider
-    5. Card
-        5.1 Card General
-        5.2 Challenge
-        5.3 Games
-        5.4 Update
-        5.5 Features
-        5.6 About
-            5.6.1 About General
-            5.6.2 Follow Social
-            5.6.3 Subscribe
-            5.6.4 Contact
-    6. Footer
-    7. Responsive
+1. Global
+1.1 Icomoon Custom Icon Font
+1.2 General
+1.3 Scrollbar
+1.4 Scroll Up
+1.5 Loading Overlay
+2. Carousel
+3. Header
+3.1 Header General
+3.2 Navbar
+3.3 Mobile Right Menu
+4. Custom Slick Slider
+5. Card
+    5.1 Card General
+    5.2 Challenge
+    5.3 Games
+    5.4 Update
+    5.5 Features
+    5.6 Tournament
+    5.7 About
+        5.7.1 About General
+        5.7.2 Follow Social
+        5.7.3 Subscribe
+        5.7.4 Contact
+6. Footer
+7. Responsive
 
 
 ======================== */
@@ -624,7 +628,7 @@ function scrollToTop() {
 
           <pre class="css">
 
-  V. 1.0.0 – 4.11.2023
+  V. 1.0.0 – 15.11.2023
   - Initial release
 </pre>
         </section>

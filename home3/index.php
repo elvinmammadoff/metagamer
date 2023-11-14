@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="src/assets/css/plugins/slick.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/slick-theme.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/touch-sideswipe.css" type="text/css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="src/assets/css/plugins/aos.css" type="text/css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
         type="text/css">
@@ -974,7 +974,7 @@
     <script src="src/assets/js/plugins/jquery.mousewheel.min.js"></script>
     <script src="src/assets/js/plugins/jquery.easing.min.js"></script>
     <script src="src/assets/js/plugins/slick.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/assets/js/plugins/aos.js"></script> <!-- AOS 2.3.1 -->
     <script src="src/assets/js/main.js"></script>
 </body>
 

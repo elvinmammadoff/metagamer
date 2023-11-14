@@ -1805,34 +1805,23 @@ a:hover {
 
 .subs-area input,
 .subs-area input:focus {
-    background: transparent;
-    border: none;
+    background: #0fa1c5;
     box-shadow: none;
     color: var(--color-white);
     border-radius: 10px;
     height: 52px;
-    border: none;
-    font-size: 1.3rem;
+    border: 1px solid #0089ab;
 }
 
 .subs-area input::placeholder {
     color: var(--color-white);
-    font-size: 1.3rem;
 }
 
 .subs-area button {
     padding: 13px 25px;
     background-color: #0d6efd;
-    border-color: #0d6efd;
     font-weight: 600;
     border-radius: 16px;
-    font-size: 1.2rem;
-}
-
-.subs-area button:hover {
-    background-color: #fff;
-    color: #0d6efd;
-    border-color: #fff;
 }
 
 
@@ -2232,144 +2221,9 @@ a:hover {
 * 7. Responsive
 *
 ======*/
-@media (max-width: 425px) {
-
-    .fcopy-nav {
-        flex-direction: column;
-    }
-
-    .subs-area {
-        border: none;
-        padding: 0;
-    }
-
-    .subs-form {
-        padding: 2rem 1rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .downloads .row>* {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-    .fapps a {
-        width: 100% !important;
-    }
-
-    .navbar {
-        width: 100%;
-    }
-
-    .subs-area {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 768px) {
-    .comm i {
-        font-size: 4rem;
-        margin-bottom: 1rem;
-    }
-
-    .comm-ttl {
-        font-size: 1.8rem;
-    }
-
-    .comm-text {
-        font-size: 1rem;
-    }
-
-    .comm-link {
-        padding: 8px 10px;
-        font-size: 1rem;
-    }
-
-    .rw-content {
-        padding: 2rem 1.5rem 1rem;
-    }
-
-    .rw-text {
-        font-size: 15px;
-    }
-
-    .rw-card .user-box {
-        width: 34px;
-        min-width: 34px;
-        height: 34px;
-    }
-
-    .rw-author_name {
-        font-size: 15px;
-    }
-
-    .rw-rating {
-        font-size: 1.2rem;
-    }
-
-    .rw-icon {
-        font-size: 1.1rem;
-    }
-
-    .parallax,
-    .comm {
-        background-attachment: scroll;
-    }
-
-    .carousel-indicators [data-bs-target] {
-        width: 60px;
-    }
-
-    .carousel-actions {
-        bottom: 10%;
-    }
-
-    .carousel-caption {
-        max-width: 85% !important;
-    }
-
-    .carousel-ttl h5 {
-        font-size: 30px;
-    }
-
-    .carousel-txt p {
-        font-size: 16px;
-    }
-
-    .fapps a {
-        width: calc(50% - 10px) !important;
-        flex: 0 0 auto;
-    }
-
-    .contact-list {
-        margin-top: 2rem;
-    }
-
-    .section {
-        padding: 100px 0 0;
-    }
-
-    .about-card {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .feat-info {
-        width: 80% !important;
-    }
-
-    .video-title {
-        width: 100%;
-        font-size: 2.5rem;
-    }
-
-    .video-desc {
-        width: 100%;
-    }
-
-    .news-card {
-        margin-bottom: 3rem;
+@media (max-width: 1199px) {
+    .video-img {
+        display: none;
     }
 }
 
@@ -2439,6 +2293,7 @@ a:hover {
 
     .subs-form {
         width: 100%;
+        padding: 1rem;
     }
 
     .fapps a {
@@ -2479,14 +2334,158 @@ a:hover {
     .about-note {
         width: 100%;
     }
+}
 
-    .subs-form {
-        padding: 1rem;
+@media (max-width: 767px) {
+    .comm i {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .comm-ttl {
+        font-size: 1.8rem;
+    }
+
+    .comm-text {
+        font-size: 1rem;
+    }
+
+    .comm-link {
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+
+    .rw-content {
+        padding: 2rem 1.5rem 1rem;
+    }
+
+    .rw-text {
+        font-size: 15px;
+    }
+
+    .rw-card .user-box {
+        width: 34px;
+        min-width: 34px;
+        height: 34px;
+    }
+
+    .rw-author_name {
+        font-size: 15px;
+    }
+
+    .rw-rating {
+        font-size: 1.2rem;
+    }
+
+    .rw-icon {
+        font-size: 1.1rem;
+    }
+
+    .parallax,
+    .comm {
+        background-attachment: scroll;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 60px;
+    }
+
+    .carousel-actions {
+        bottom: 10%;
+    }
+
+    .carousel-caption {
+        max-width: 85%;
+    }
+
+    .carousel-ttl h5 {
+        font-size: 30px;
+    }
+
+    .carousel-txt p {
+        font-size: 16px;
+    }
+
+    .fapps a {
+        width: calc(50% - 10px);
+        flex: 0 0 auto;
+    }
+
+    .contact-list {
+        margin-top: 2rem;
+    }
+
+    .section {
+        padding: 100px 0 0;
+    }
+
+    .about-card {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .feat-info {
+        width: 100%;
+    }
+
+    .video-title {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .video-desc {
+        width: 100%;
+    }
+
+    .news-card {
+        margin-bottom: 3rem;
     }
 }
 
-@media (max-width: 1199px) {
-    .video-img {
-        display: none;
+@media (max-width: 576px) {
+    .downloads .row>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .fapps a {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .subs-area,
+    .fcopy-nav {
+        flex-direction: column;
+    }
+
+    .fcopy {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fcopy-nav a {
+        padding: 2px 0;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .subs-area {
+        border: none;
+        padding: 0;
+    }
+
+    .subs-form {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .fapps a,
+    .fpay-item {
+        width: 100%;
     }
 }

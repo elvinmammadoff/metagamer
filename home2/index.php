@@ -135,7 +135,7 @@
             <div class="container">
                 <h2 class="title">Incredible Features</h2>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-5">
+                    <div class="col-md-12 col-lg-5">
                         <div class="feat-info">
                             <h3 class="feat-info_ttl">Our Incredible Features will motivate you!</h3>
                             <p class="feat-info_text">Games are de- signed to be engaging and enjoyable, with features
@@ -159,9 +159,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-7">
+                    <div class="col-md-12 col-lg-7">
                         <div class="row">
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-cogs"></i>
                                     <h4 class="feat-name">Quick Setup</h4>
@@ -170,7 +170,7 @@
                                         excepteur cupidatat cupidatat duis dolor in.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-users"></i>
                                     <h4 class="feat-name">Expert Teams</h4>
@@ -178,7 +178,7 @@
                                         sollicitudin is yaugue euismods</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-bubbles"></i>
                                     <h4 class="feat-name">Fast Support</h4>
@@ -186,7 +186,7 @@
                                         sollicitudin is yaugue euismods.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12 col-lg-6">
+                            <div class="col-sm-6 col-md-6">
                                 <div class="feat-card">
                                     <i class="icon-trophy"></i>
                                     <h4 class="feat-name">Year Experience</h4>
