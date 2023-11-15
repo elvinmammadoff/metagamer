@@ -368,6 +368,13 @@ a:hover {
     box-shadow: 0 0 10px 0px #0e6ae6;
 }
 
+.more-link {
+    padding: .5rem 1.6rem;
+    font-size: 1rem;
+    display: inline-block;
+    text-transform: none;
+}
+
 
 
 /*====== 1.3 Scrollbar ======*/
@@ -955,8 +962,9 @@ a:hover {
     color: var(--color-white);
 }
 
-.nav-link:hover {
-    color: #A27AF7;
+.nav-link:hover,
+.nav-link.active {
+    color: #10add3;
 }
 
 .nav-link:focus-visible {
@@ -965,10 +973,6 @@ a:hover {
 
 .nav-link i {
     font-size: 6px;
-}
-
-.nav-item:hover .nav-link {
-    color: #10add3;
 }
 
 
@@ -1601,23 +1605,6 @@ a:hover {
     font-weight: 600;
 }
 
-.comm-link {
-    background-color: #10add3;
-    padding: 10px 14px;
-    font-size: 1.2rem;
-    color: #121212;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: 600;
-    border: 2px solid var(--color-white);
-    transition: all .3s ease-in-out;
-}
-
-.comm-link:hover {
-    background-color: var(--color-white);
-    color: #121212;
-}
-
 
 
 /*====== 5.5 Features ======*/
@@ -1839,7 +1826,7 @@ a:hover {
     font-size: 1.2rem;
 }
 
-.contact {
+section.contact {
     padding-bottom: 0 !important;
 }
 

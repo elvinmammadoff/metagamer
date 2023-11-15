@@ -130,10 +130,7 @@
 
           <p>This product is a responsive image slider which built with Bootstrap 5.0.x Framework and you can customize
             it very easily. All of the information within the main
-            content area is nested within nav and div with an class of "loading-overlay", "carousel", "section" and
-            "scroll-up".
-            Here is the
-            general
+            content area is nested within nav, div and section with an class of "loading-overlay", "carousel", "section" and "scroll-up". Here is the general
             structure. Note that for brevity, I am not including content that isn’t relevant to the
             technique.</p>
 
@@ -150,22 +147,31 @@
       <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">...</div>
 
       <!--========== Home Section ==========-->
-      <div class="layer section" id="home">...</div>
+      <section class="layer section" id="home">...</section>
+      
+      <!--========== Features Section ==========-->
+      <section class="section" id="features">...</section>
       
       <!--========== New Challenges Section ==========-->
-      <div class="section" id="new-ch">...</div>
-
-      <!--========== Update Section ==========-->
-      <div class="section cover update" id="update">...</div>
-      
-      <!--========== Game Section ==========-->
-      <div class="section" id="games">...</div>
+      <section class="section" id="newch">...</section>
       
       <!--========== About Section ==========-->
-      <div class="section" id="about">...</div>
+      <section class="section" id="about">...</section>
+      
+      <!--========== Games Section ==========-->
+      <section class="section" id="games">...</section>
+      
+      <!--========== Community Section ==========-->
+      <section class="section" id="community">...</section>
+
+      <!--========== Community Modal ==========-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">...</div>
+      
+      <!--========== Reviews Section ==========-->
+      <section class="section" id="reviews">...</section>
 
       <!--========== Contact Section ==========-->
-      <div class="section contact" id="contact">...</div>
+      <section class="section contact" id="contact">...</section>
 
     <!--========== Scroll Up ==========-->
     <div class="scroll-up">...</div>
@@ -625,7 +631,7 @@ function scrollToTop() {
 
           <pre class="css">
 
-  V. 1.0.0 – 4.11.2023
+  V. 1.0.0 – 16.11.2023
   - Initial release
 </pre>
         </section>

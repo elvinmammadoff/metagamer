@@ -130,7 +130,7 @@
 
           <p>This product is a responsive image slider which built with Bootstrap 5.0.x Framework and you can customize
             it very easily. All of the information within the main
-            content area is nested within nav and div with an class of "loading-overlay", "carousel", "section" and
+            content area is nested within nav, div and section with an class of "loading-overlay", "carousel", "section" and
             "scroll-up".
             Here is the
             general
@@ -150,25 +150,28 @@
       <div class="carousel slide" id="carouselExampleIndicators" data-bs-ride="carousel">...</div>
 
       <!--========== Home Section ==========-->
-      <div class="layer section" id="home">...</div>
+      <section class="layer section" id="home">...</section>
       
       <!--========== New Challenges Section ==========-->
-      <div class="section" id="new-ch">...</div>
+      <section class="section" id="newch">...</section>
 
       <!--========== Update Section ==========-->
-      <div class="section cover update" id="update">...</div>
+      <section class="section cover update" id="update">...</section>
       
-      <!--========== Game Section ==========-->
-      <div class="section" id="games">...</div>
+      <!--========== Games Section ==========-->
+      <section class="section" id="games">...</section>
+      
+      <!--========== Features Section ==========-->
+      <section class="section" id="features">...</section>
       
       <!--========== Tournament Section ==========-->
-      <div class="section" id="tournament">...</div>
+      <section class="section" id="tournament">...</section>
       
       <!--========== About Section ==========-->
-      <div class="section" id="about">...</div>
+      <section class="section" id="about">...</section>
 
       <!--========== Contact Section ==========-->
-      <div class="section contact" id="contact">...</div>
+      <section class="section contact" id="contact">...</section>
 
     <!--========== Scroll Up ==========-->
     <div class="scroll-up">...</div>
@@ -628,7 +631,7 @@ function scrollToTop() {
 
           <pre class="css">
 
-  V. 1.0.0 – 15.11.2023
+  V. 1.0.0 – 16.11.2023
   - Initial release
 </pre>
         </section>

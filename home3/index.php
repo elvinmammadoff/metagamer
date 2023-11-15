@@ -62,10 +62,10 @@
                 </div>
             </div>
         </div>
-
+ 
 
         <!--========== Home Section ==========-->
-        <div class="layer section" id="home">
+        <section class="layer section" id="home">
             <div class="content">
 
                 <!--========== Header ==========-->
@@ -85,28 +85,28 @@
                                         <div class="navbar-layout">
                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#games">Games</a>
+                                                    <a class="nav-link games" href="#games">Games</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#features">Features</a>
+                                                    <a class="nav-link features" href="#features">Features</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#community">Community</a>
+                                                    <a class="nav-link community" href="#community">Community</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#newch">Challenges</a>
+                                                    <a class="nav-link newch" href="#newch">Challenges</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#about">About</a>
+                                                    <a class="nav-link about" href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#news">News</a>
+                                                    <a class="nav-link news" href="#news">News</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#reviews">Reviews</a>
+                                                    <a class="nav-link reviews" href="#reviews">Reviews</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#contact">Contact</a>
+                                                    <a class="nav-link contact" href="#contact">Contact</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -117,11 +117,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <!--========== Game Section ==========-->
-        <div class="section" id="games">
+        <!--========== Games Section ==========-->
+        <section class="section" id="games">
             <div class="container">
                 <h2 class="title">Top Games</h2>
                 <div class="gcard" id="games-slider" data-aos="fade-up" data-aos-duration="2000">
@@ -231,12 +231,15 @@
                         </div>
                     </a>
                 </div>
+                <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="more-link link-primary">More Games</a>
+                </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Features Section ==========-->
-        <div class="section" id="features">
+        <section class="section" id="features">
             <div class="container">
                 <h2 class="title">Incredible Features</h2>
                 <div class="row">
@@ -309,22 +312,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="more-link link-primary">More Features</a>
+                </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Community Section ==========-->
-        <div class="section" id="community">
+        <section class="section" id="community">
             <div class="container">
                 <h2 class="title">Community</h2>
                 <div class="comm" data-aos="fade-up" data-aos-duration="2000">
                     <i class="icon-play" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                     <h2 class="comm-ttl">Join the Community</h2>
                     <p class="comm-text">Join our Discord Community</p>
-                    <a href="" class="comm-link">Join Discord</a>
+                    <a href="" class="video-link link-primary">Join Discord</a>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Community Modal ==========-->
@@ -343,7 +349,7 @@
 
 
         <!--========== New Challenges Section ==========-->
-        <div class="section" id="newch">
+        <section class="section" id="newch">
             <div class="container">
                 <h2 class="title">New Challenges</h2>
 
@@ -608,12 +614,16 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="more-link link-primary">More Challenges</a>
+                </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== About Section ==========-->
-        <div class="section" id="about">
+        <section class="section" id="about">
             <div class="container">
                 <h2 class="title">About</h2>
                 <div class="card about-card parallax" data-aos="fade-up" data-aos-duration="2000">
@@ -636,11 +646,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== News Section ==========-->
-        <div class="section" id="news">
+        <section class="section" id="news">
             <div class="container">
                 <h2 class="title">News & Promo</h2>
                 <div class="row" data-aos="fade-up" data-aos-duration="2000">
@@ -686,12 +696,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="more-link link-primary">More News</a>
+                </div>
             </div>
-        </div>
+        </section>
 
 
-        <!--========== Review Section ==========-->
-        <div class="section" id="reviews">
+        <!--========== Reviews Section ==========-->
+        <section class="section" id="reviews">
             <div class="container">
                 <h2 class="title">Player Reviews</h2>
 
@@ -798,12 +811,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center mt-5" data-aos="fade-up" data-aos-duration="3000">
+                    <a href="" class="more-link link-primary">More Reviews</a>
+                </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Contact Section ==========-->
-        <div class="section contact" id="contact">
+        <section class="section contact" id="contact">
             <div class="contact-layer">
                 <div class="container">
                     <div class="row">
@@ -930,7 +946,7 @@
                 </div>
             </div>
 
-        </div>
+        </section>
     </div>
 
 

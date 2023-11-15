@@ -117,6 +117,28 @@
     });
 
 
+    //Nav-link's to active as you scroll through sections
+    var sections = document.querySelectorAll("section");
+    var navLink = document.querySelectorAll("ul.navbar-nav li a");
+    window.onscroll = () => {
+      var current = "";
+    
+      sections.forEach((section) => {
+        var sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - 60) {
+          current = section.getAttribute("id"); 
+        }
+      });
+    
+      navLink.forEach((a) => {
+        a.classList.remove("active");
+        if (a.classList.contains(current)) {
+          a.classList.add("active");
+        }
+      });
+    };
+
+
     /*======
     *
     * Custom Slick

@@ -134,7 +134,7 @@
 
 
         <!--========== Home Section ==========-->
-        <div class="layer section" id="home">
+        <section class="layer section" id="home">
             <div class="content">
 
                 <!--========== Header ==========-->
@@ -154,25 +154,25 @@
                                         <div class="navbar-layout">
                                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#new-ch">Challenges</a>
+                                                    <a class="nav-link newch" href="#newch">Challenges</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#update">Updates</a>
+                                                    <a class="nav-link update" href="#update">Updates</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#games">Games</a>
+                                                    <a class="nav-link games" href="#games">Games</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#features">Features</a>
+                                                    <a class="nav-link features" href="#features">Features</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#tournament">Tournament</a>
+                                                    <a class="nav-link tournament" href="#tournament">Tournament</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#about">About</a>
+                                                    <a class="nav-link about" href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link" href="#contact">Contact</a>
+                                                    <a class="nav-link contact" href="#contact">Contact</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -183,13 +183,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== New Challenges Section ==========-->
-        <div class="section" id="new-ch">
+        <section class="section" id="newch">
             <div class="container">
-                <h2 class="title">New Challenges</h2>
+                <div class="title-horz">
+                    <h2 class="title">New Challenges</h2>
+                    <a href="" class="link-primary">More Challenges</a>
+                </div>
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
@@ -453,12 +456,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Update Section ==========-->
-        <div class="section cover update" id="update">
+        <section class="section cover update" id="update">
             <div class="container">
+                <div class="title-horz">
+                    <h2 class="title">Updates</h2>
+                    <a href="" class="link-primary">More Updates</a>
+                </div>
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <img src="src/assets/img/character.png" class="update-img" alt="character">
@@ -522,13 +529,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <!--========== Game Section ==========-->
-        <div class="section" id="games">
+        <!--========== Games Section ==========-->
+        <section class="section" id="games">
             <div class="container">
-                <h2 class="title">Top Games</h2>
+                <div class="title-horz">
+                    <h2 class="title">Top Games</h2>
+                    <a href="" class="link-primary">More Games</a>
+                </div>
                 <div class="gcard" id="games-slider">
                     <a href="" class="gcard-item">
                         <img src="src/assets/img/games/games-1.jpg" alt="games1">
@@ -632,13 +642,16 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Features Section ==========-->
-        <div class="section" id="features">
+        <section class="section" id="features">
             <div class="container">
-                <h2 class="title">Incredible Features</h2>
+                <div class="title-horz">
+                    <h2 class="title">Incredible Features</h2>
+                    <a href="" class="link-primary">More Features</a>
+                </div>
                 <div class="row">
                     <div class="col-md-12 col-lg-5">
                         <div class="feat-info">
@@ -702,13 +715,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+        </section>
+ 
 
         <!--========== Tournament Section ==========-->
-        <div class="section" id="tournament">
+        <section class="section" id="tournament">
             <div class="container">
-                <h2 class="title">Players Of The Week</h2>
+                <div class="title-horz">
+                    <h2 class="title">Players Of The Week</h2>
+                    <a href="" class="link-primary">More Players</a>
+                </div>
                 <p class="desc">We take a look at the best player of the week awarded on Monday for previous Monday to Sunday</p>
                 <div class="pw-list">
                     <div class="row">
@@ -778,11 +794,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== About Section ==========-->
-        <div class="section" id="about">
+        <section class="section" id="about">
             <div class="container">
                 <div class="card about-card parallax">
                     <div class="row">
@@ -824,11 +840,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Contact Section ==========-->
-        <div class="section contact" id="contact">
+        <section class="section contact" id="contact">
             <div class="contact-layer">
                 <div class="container">
                     <div class="row">
@@ -867,7 +883,7 @@
                             <h3 class="ftitle">Pages</h3>
                             <ul class="fmenu">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#new-ch">Challenges</a></li>
+                                <li><a href="#newch">Challenges</a></li>
                                 <li><a href="#update">Updates</a></li>
                                 <li><a href="#games">Games</a></li>
                                 <li><a href="#features">Features</a></li>
@@ -951,7 +967,7 @@
                 </div>
             </div>
 
-        </div>
+        </section>
     </div>
 
 
@@ -974,7 +990,7 @@
             </div>
         </div>
         <ul class="rmenu_list">
-            <li><a class="page-scroll" href="#new-ch">Challenges</a></li>
+            <li><a class="page-scroll" href="#newch">Challenges</a></li>
             <li><a class="page-scroll" href="#update">Updates</a></li>
             <li><a class="page-scroll" href="#games">Games</a></li>
             <li><a class="page-scroll" href="#features">Features</a></li>

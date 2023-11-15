@@ -130,10 +130,66 @@
         </div>
 
 
+        <!--========== Home Section ==========-->
+        <section class="layer section" id="home">
+            <div class="content">
+
+                <!--========== Header ==========-->
+                <div class="position-relative">
+                    <div class="header">
+                        <nav class="navbar navbar-expand-lg affix-top">
+                            <div class="container">
+                                <div class="navbar-container">
+                                    <a class="navbar-brand page-scroll" href="#home">
+                                        <img src="src/assets/img/logo.svg" alt="MetaGamer">
+                                        <span>MetaGamer</span>
+                                    </a>
+                                    <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
+                                        <span>Menu</span>
+                                    </a>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <div class="navbar-layout">
+                                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                                <li class="nav-item">
+                                                    <a class="nav-link features" href="#features">Features</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link newch" href="#newch">Challenges</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link about" href="#about">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link games" href="#games">Games</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link community" href="#community">Community</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link reviews" href="#reviews">Reviews</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link contact" href="#contact">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!--========== Features Section ==========-->
-        <div class="section" id="features">
+        <section class="section" id="features">
             <div class="container">
-                <h2 class="title">Incredible Features</h2>
+                <div class="title-horz">
+                    <h2 class="title">Incredible Features</h2>
+                    <a href="" class="link-primary">More Features</a>
+                </div>
                 <div class="row">
                     <div class="col-md-12 col-lg-5">
                         <div class="feat-info">
@@ -199,66 +255,16 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <!--========== Home Section ==========-->
-        <div class="layer section" id="home">
-            <div class="content">
-
-                <!--========== Header ==========-->
-                <div class="position-relative">
-                    <div class="header">
-                        <nav class="navbar navbar-expand-lg affix-top">
-                            <div class="container">
-                                <div class="navbar-container">
-                                    <a class="navbar-brand page-scroll" href="#home">
-                                        <img src="src/assets/img/logo.svg" alt="MetaGamer">
-                                        <span>MetaGamer</span>
-                                    </a>
-                                    <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
-                                        <span>Menu</span>
-                                    </a>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <div class="navbar-layout">
-                                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#features">Features</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#newch">Challenges</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#about">About</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#games">Games</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#community">Community</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#reviews">Reviews</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#contact">Contact</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
 
 
         <!--========== New Challenges Section ==========-->
-        <div class="section" id="newch">
+        <section class="section" id="newch">
             <div class="container">
-                <h2 class="title">New Challenges</h2>
+                <div class="title-horz">
+                    <h2 class="title">New Challenges</h2>
+                    <a href="" class="link-primary">More Challenges</a>
+                </div>
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="thumb-slider">
@@ -522,11 +528,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== About Section ==========-->
-        <div class="section" id="about">
+        <section class="section" id="about">
             <div class="container">
                 <div class="card about-card parallax">
                     <div class="row">
@@ -568,13 +574,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <!--========== Game Section ==========-->
-        <div class="section" id="games">
+        <!--========== Games Section ==========-->
+        <section class="section" id="games">
             <div class="container">
-                <h2 class="title">Top Games</h2>
+                <div class="title-horz">
+                    <h2 class="title">Top Games</h2>
+                    <a href="" class="link-primary">More Games</a>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="gcard-desc">
@@ -693,20 +702,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Community Section ==========-->
-        <div class="section" id="community">
+        <section class="section" id="community">
             <div class="container">
                 <div class="comm">
                     <i class="icon-play" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
                     <h2 class="comm-ttl">Join the Community</h2>
                     <p class="comm-text">Join our Discord Community</p>
-                    <a href="" class="comm-link">Join Discord</a>
+                    <a href="" class="comm-link link-primary">Join Discord</a>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Community Modal ==========-->
@@ -724,10 +733,13 @@
         </div>
 
 
-        <!--========== Review Section ==========-->
-        <div class="section" id="reviews">
+        <!--========== Reviews Section ==========-->
+        <section class="section" id="reviews">
             <div class="container">
-                <h2 class="title">Player Reviews</h2>
+                <div class="title-horz">
+                    <h2 class="title">Player Reviews</h2>
+                    <a href="" class="link-primary">More Reviews</a>
+                </div>
 
                 <!--========== Custom Slick Slider ==========-->
                 <div id="review-slider">
@@ -824,11 +836,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <!--========== Contact Section ==========-->
-        <div class="section contact" id="contact">
+        <section class="section contact" id="contact">
             <div class="contact-layer">
                 <div class="container">
                     <div class="row">
@@ -951,7 +963,7 @@
                 </div>
             </div>
 
-        </div>
+        </section>
     </div>
 
 

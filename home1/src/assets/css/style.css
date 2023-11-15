@@ -294,6 +294,23 @@ a:hover {
     border-radius: 10px;
 }
 
+.title-horz {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.title-horz .title {
+    margin-bottom: 0;
+}
+
+.title-horz .link-primary {
+    margin-top: .5rem;
+    text-transform: none;
+    font-size: 13px;
+}
+
 .desc {
     color: #fff;
     opacity: .5;
@@ -832,8 +849,9 @@ a:hover {
     color: #fff;
 }
 
-.nav-link:hover {
-    color: #A27AF7;
+.nav-link:hover,
+.nav-link.active {
+    color: #10add3;
 }
 
 .nav-link:focus-visible {
@@ -850,10 +868,6 @@ a:hover {
 
 .nav-item:first-child .nav-link {
     border-radius: 18px 0 0 18px;
-}
-
-.nav-item:hover .nav-link {
-    color: #10add3;
 }
 
 
