@@ -247,7 +247,7 @@
         var scrollCalc = Math.max(((scrollH + winH) * 100) / bodyH);
         var scrollPercent = Math.trunc(scrollCalc) + "px";
         document.getElementById("scrollH").style.height = scrollPercent;
-        if (Math.trunc(scrollCalc) > 20) {
+        if (Math.trunc(scrollCalc) > 12) {
             document.getElementById("scrollH").style.visibility = 'visible';
         } else {
             document.getElementById("scrollH").style.visibility = 'hidden';

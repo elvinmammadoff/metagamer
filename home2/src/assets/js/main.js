@@ -239,12 +239,12 @@
         var scrollCalc = Math.max(((scrollH + winH) * 100) / bodyH);
         var scrollPercent = Math.trunc(scrollCalc) + "px";
         document.getElementById("scrollH").style.height = scrollPercent;
-        if (Math.trunc(scrollCalc) > 20) {
+        if (Math.trunc(scrollCalc) > 16) {
             document.getElementById("scrollH").style.visibility = 'visible';
         } else {
             document.getElementById("scrollH").style.visibility = 'hidden';
         }
-        if ($(window).scrollTop() > 100) {
+        if ($(window).scrollTop() > 50) {
             $('.scroll-up').addClass('show');
         } else {
             $('.scroll-up').removeClass('show');
