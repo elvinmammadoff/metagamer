@@ -38,8 +38,6 @@
 
         <!--========== Hero ==========-->
         <div class="hero">
-            <div class="hero-gradient"></div>
-            <img src="./demo/src/assets/img/hero/hero-bg.png" class="hero-bg" alt="hero">
             <div class="hero-container container">
                 <div class="hero-content">
                     <img src="./demo/src/assets/img/logo.svg" alt="" class="hero-logo" data-aos="zoom-in" data-aos-duration="3100">
@@ -377,7 +375,7 @@
                     <p class="title-bottom">Impressive design, powerful features, and easy customization.</p>
                 </div>
                 <div class="text-center">
-                    <a href="javascript:void(0)" class="hero-link link-primary" data-aos="fade-up" data-aos-duration="3100">Buy now for 15$</a>
+                    <a href="javascript:void(0)" class="hero-link link-primary">Buy now for 15$</a>
                 </div>
             </div>
         </section>
