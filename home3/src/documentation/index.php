@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>Documentation - Nays Slider</title>
+  <title>Documentation - MetaGamer</title>
 
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/foundation.css">
@@ -154,7 +154,7 @@
 
           <br>
 
-          <p>This product is a responsive image slider which built with Bootstrap 5.0.2 Framework and you can customize it very easily. All of the information within the main
+          <p>This product is a Game & Gaming HTML5 Template which built with Bootstrap 5.0.2 Framework and you can customize it very easily. All of the information within the main
             content area is nested within nav, div and section with an class of "loading-overlay", "video-layout", "section" and "scroll-up". <br> Here is the general
             structure. Note that for brevity, I am not including content that isn’t relevant to the
             technique.</p>
@@ -331,7 +331,7 @@
 
           </ul>
 
-          <p class="mt-2">The fourth file contains all of the specific stylings for the page. The file is separated into sections
+          <p class="mt-2">This files contains all of the specific stylings for the page. The file is separated into sections
             using:</p>
 
           <pre data-language="Folder Map" class="css">
@@ -524,14 +524,12 @@ i {
               <a href="https://michalsnik.github.io/aos/" target="_blank" class="mt-1 d-inline-block">Source</a>
             </li>
 
-            <li><strong>main.js</strong> contains all the custom programmed javascript coded specifically for this
-              template.
+            <li><strong>main.js</strong> contains all the custom programmed javascript coded specifically for this template.
             </li>
 
           </ul>
 
-          <p>This files contains all of the specific action effects for the page. The file is separated into sections
-            using:</p>
+          <p>This files contains all of the specific action effects for the page. The file is separated into sections using:</p>
 
           <pre data-language="Folder Map" class="js">
 

@@ -31,8 +31,7 @@
     <link rel="stylesheet" href="src/assets/css/plugins/touch-sideswipe.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/aos.css" type="text/css" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
-        type="text/css">
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap" type="text/css">
     <link rel="stylesheet" href="src/assets/css/style.css" type="text/css">
 </head>
 
@@ -47,7 +46,7 @@
     </div>
 
 
-    <!--========== Hero Layout ==========-->
+    <!--========== Content Layout ==========-->
     <div class="layout">
 
         <!--========== Video Content ==========-->

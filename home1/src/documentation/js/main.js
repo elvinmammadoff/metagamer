@@ -37,23 +37,31 @@ $(function() {  //same as $(document).ready(); (Document is ready when the only 
 		return false;
 	});
 
-	function headerStuff() {
-		if ($(window).scrollTop() > 500) {
-			$('#sidebar').addClass('fixed');
-		} else {
-			$('#sidebar').removeClass('fixed');
-		}
-	};
 
-	$(document).ready(function () {
-		headerStuff();
-		$(window).scroll(function () {
-			headerStuff();
-		});
-	});
-
+	   //Nav-link's to active as you scroll through sections
+		 var sections = document.querySelectorAll("section");
+		 var navLink = document.querySelectorAll(".sticky li a");
+		 window.onscroll = () => {
+			 var current = "";
+		 
+			 sections.forEach((section) => {
+				 var sectionTop = section.offsetTop;
+				 if (pageYOffset >= sectionTop - 60) {
+					 current = section.getAttribute("id"); 
+				 }
+			 });
+		 
+			 navLink.forEach((a) => {
+				 a.classList.remove("active");
+				 if (a.classList.contains(current)) {
+					 a.classList.add("active");
+				 }
+			 });
+		 };
 
 });
+
+
 
     
 })(jQuery);
