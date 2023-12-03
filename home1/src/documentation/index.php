@@ -137,7 +137,7 @@
           <ul class="file-list">
             <li><strong>index.html</strong> Main HTML file of the project. You'll upload on your server.</li>
 
-            <li><strong>assets</strong> Contains all the original product files comprises of CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
+            <li><strong>assets</strong> Contains all the original product files comprises of CSS, SCSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
 
             <li><strong>documentation</strong> Inside this folder, you will find the same documentation updated with the latest changes.</li>
 
@@ -350,9 +350,9 @@
 1.5 Loading Overlay
 2. Carousel
 3. Header
-    3.1 Header General
-    3.3 Navbar
-    3.4 Mobile Right Menu
+3.1 Header General
+3.2 Navbar
+3.3 Mobile Right Menu
 4. Custom Slick Slider
 5. Card
     5.1 Card General
@@ -360,12 +360,12 @@
     5.3 Games
     5.4 Update
     5.5 Features
-    5.6 About
-        5.6.1 About General
-        5.6.2 Follow Social
-        5.6.3 Subscribe
-        5.6.4 Contact
-    5.7 Reviews
+    5.6 Tournament
+    5.7 About
+        5.7.1 About General
+        5.7.2 Follow Social
+        5.7.3 Subscribe
+        5.7.4 Contact
 6. Footer
 7. Responsive
 

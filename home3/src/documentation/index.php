@@ -137,7 +137,7 @@
           <ul class="file-list">
             <li><strong>index.html</strong> Main HTML file of the project. You'll upload on your server.</li>
 
-            <li><strong>assets</strong> Contains all the original product files comprises of CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
+            <li><strong>assets</strong> Contains all the original product files comprises of CSS, SCSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
 
             <li><strong>documentation</strong> Inside this folder, you will find the same documentation updated with the latest changes.</li>
 
