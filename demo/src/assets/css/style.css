@@ -1344,6 +1344,10 @@ a:hover {
     column-gap: 1.2rem;
 }
 
+.demo-timer h1 {
+    color: #fff;
+}
+
 .demo-timer_item {
     text-align: center;
 }

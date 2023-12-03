@@ -178,7 +178,7 @@
     function setCountdown() {
     
         // Set countdown date
-        let countdownDate = new Date('Nov 30, 2023 12:19:00').getTime();
+        let countdownDate = new Date('Dec 30, 2023 12:19:00').getTime();
 
         // Update countdown every second
         let updateCount = setInterval(function(){
