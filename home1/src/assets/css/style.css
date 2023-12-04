@@ -724,7 +724,7 @@ a:hover {
     overflow: hidden;
 }
 
-.carousel-ttl h5 {
+.carousel-ttl_name {
     font-size: 40px;
     font-weight: 700;
     transition: transform 1.5s ease-in-out;
@@ -741,10 +741,10 @@ a:hover {
     transition: transform 1.5s ease-in-out;
 }
 
-.carousel-item-next:not(.carousel-item-start) .carousel-ttl h5,
-.active.carousel-item-end .carousel-ttl h5,
-.carousel-item-prev:not(.carousel-item-end) .carousel-ttl h5,
-.active.carousel-item-start .carousel-ttl h5 {
+.carousel-item-next:not(.carousel-item-start) .carousel-ttl_name,
+.active.carousel-item-end .carousel-ttl_name,
+.carousel-item-prev:not(.carousel-item-end) .carousel-ttl_name,
+.active.carousel-item-start .carousel-ttl_name {
     transform: translateY(400%);
     transition: transform 1s ease-in-out;
 }
@@ -812,7 +812,12 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-width: 30px;
+    max-width: 32px;
+}
+
+.navbar-brand_name {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .navbar-toggler {
@@ -2221,7 +2226,7 @@ a:hover {
         bottom: 100px;
     }
 
-    .carousel-ttl h5 {
+    .carousel-ttl_name {
         font-size: 30px;
     }
 

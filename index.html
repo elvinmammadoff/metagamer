@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./demo/src/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="256x256"  href="./demo/src/assets/img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="./demo/src/assets/img/favicon/android-chrome-512x512.png">    
-    <link rel="icon" type="image/png" href="./demo/src/assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" href="./demo/src/assets/img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="./demo/src/assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./demo/src/assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./demo/src/assets/img/favicon/site.webmanifest">
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="demo/src/assets/css/plugins/touch-sideswipe.css" type="text/css">
-    <link rel="stylesheet" href="demo/src/assets/css/plugins/aos.css" type="text/css" />
+    <link rel="stylesheet" href="demo/src/assets/css/plugins/aos.css" type="text/css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap"
         type="text/css">
@@ -53,7 +53,7 @@
             <div class="hero-container container">
                 <div class="hero-content">
                     <img src="./demo/src/assets/img/logo.svg" alt="" class="hero-logo" data-aos="zoom-in" data-aos-duration="3100">
-                    <h2 class="hero-title" data-aos="fade-up" data-aos-duration="3100">Build your successful Game and Gaming website by our MetaGamer HTML Template.</h2>
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-duration="3100">Build your successful Game and Gaming website by our MetaGamer HTML Template.</h1>
                     <div class="hero-action">
                         <a href="javascript:void(0)" class="hero-link link-primary" data-aos="fade-up" data-aos-duration="3100">Buy now for 15$</a>
                         <a href="https://metagamer.netlify.app/demo/src/documentation/" class="hero-link link-outline" data-aos="fade-up" data-aos-duration="3100">Online Documentation</a>
@@ -75,7 +75,7 @@
                                 <div class="navbar-container">
                                     <a class="navbar-brand" href="#home">
                                         <img src="demo/src/assets/img/logo.svg" alt="MetaGamer">
-                                        <span>MetaGamer</span>
+                                        <h2 class="navbar-brand_name">MetaGamer</h2>
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
                                         <span>Menu</span>

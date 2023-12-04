@@ -29,21 +29,20 @@
 		3.2 Hero
 		3.3 Navbar
 		3.4 Mobile Right Menu
-    4. Custom Slick Slider
-    5. Card
-        5.1 Card General
-        5.2 Challenge
-        5.3 Games
-        5.4 Community
-        5.5 Features
-        5.6 About
-            5.6.1 About General
-            5.6.2 Follow Social
-            5.6.3 Subscribe
-            5.6.4 Contact
-        5.7 Reviews
-    6. Footer
-    7. Responsive
+    4. Card
+        4.1 Card General
+        4.2 Challenge
+        4.3 Games
+        4.4 Community
+        4.5 Features
+        4.6 About
+            4.6.1 About General
+            4.6.2 Follow Social
+            4.6.3 Subscribe
+            4.6.4 Contact
+        4.7 Reviews
+    5. Footer
+    6. Responsive
 
 
 ======================== */
@@ -931,7 +930,12 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-width: 36px;
+    max-width: 32px;
+}
+
+.navbar-brand_name {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .navbar-toggler {
@@ -1198,10 +1202,10 @@ a:hover {
 
 /*======
 *
-* 5. Card
+* 4. Card
 *
 ======*/
-/*====== 5.1 Card General ======*/
+/*====== 4.1 Card General ======*/
 .card {
     border: none;
     background-color: transparent;
@@ -1262,7 +1266,7 @@ a:hover {
 
 
 
-/*====== 5.2 Preview ======*/
+/*====== 4.2 Preview ======*/
 .demo-list {
     padding: 0 10rem;
 }
@@ -1365,7 +1369,7 @@ a:hover {
 
 
 
-/*====== 5.5 Features ======*/
+/*====== 4.5 Features ======*/
 .feat-info {
     width: 60%;
     margin: 0 auto 4rem;
@@ -1438,7 +1442,7 @@ a:hover {
     font-weight: 600;
 }
 
-/*====== 5.6 Support ======*/
+/*====== 4.6 Support ======*/
 .support-list {
     padding: 0 12rem;
 }
@@ -1447,7 +1451,7 @@ a:hover {
 
 /*======
 *
-* 6. Footer
+* 5. Footer
 *
 ======*/
 .footer {
@@ -1479,7 +1483,7 @@ a:hover {
 
 /*======
 *
-* 7. Responsive
+* 6. Responsive
 *
 ======*/
 @media (max-width: 1199px) {

@@ -735,11 +735,9 @@ a {
 		.carousel-img {
 			transform: translateX(100%);
 		}
-		.carousel-ttl {
-			h5 {
-				transform: translateY(400%);
-				transition: transform 1s ease-in-out;
-			}
+		.carousel-ttl_name {
+			transform: translateY(400%);
+			transition: transform 1s ease-in-out;
 		}
 		.carousel-txt {
 			p {
@@ -754,11 +752,9 @@ a {
 	.carousel-img {
 		transform: translateX(100%);
 	}
-	.carousel-ttl {
-		h5 {
-			transform: translateY(400%);
-			transition: transform 1s ease-in-out;
-		}
+	.carousel-ttl_name {
+		transform: translateY(400%);
+		transition: transform 1s ease-in-out;
 	}
 	.carousel-txt {
 		p {
@@ -773,11 +769,9 @@ a {
 		.carousel-img {
 			transform: translateX(-100%);
 		}
-		.carousel-ttl {
-			h5 {
-				transform: translateY(400%);
-				transition: transform 1s ease-in-out;
-			}
+		.carousel-ttl_name {
+			transform: translateY(400%);
+			transition: transform 1s ease-in-out;
 		}
 		.carousel-txt {
 			p {
@@ -792,11 +786,9 @@ a {
 	.carousel-img {
 		transform: translateX(-100%);
 	}
-	.carousel-ttl {
-		h5 {
-			transform: translateY(400%);
-			transition: transform 1s ease-in-out;
-		}
+	.carousel-ttl_name {
+		transform: translateY(400%);
+		transition: transform 1s ease-in-out;
 	}
 	.carousel-txt {
 		p {
@@ -853,11 +845,11 @@ a {
 .carousel-ttl {
 	padding-bottom: 14px;
 	overflow: hidden;
-	h5 {
-		font-size: 40px;
-		font-weight: 700;
-		transition: transform 1.5s ease-in-out;
-	}
+}
+.carousel-ttl_name {
+	font-size: 40px;
+	font-weight: 700;
+	transition: transform 1.5s ease-in-out;
 }
 .carousel-txt {
 	padding-top: 14px;
@@ -907,8 +899,12 @@ a {
 	padding: 15px 10px;
 	font-size: 22px;
 	img {
-		max-width: 36px;
+		max-width: 32px;
 	}
+}
+.navbar-brand_name {
+	font-size: 22px;
+	font-weight: bold;
 }
 .navbar-toggler {
 	color: $color_3;
@@ -2039,10 +2035,8 @@ section.contact {
 	.carousel-caption {
 		max-width: 85%;
 	}
-	.carousel-ttl {
-		h5 {
-			font-size: 30px;
-		}
+	.carousel-ttl_name {
+		font-size: 30px;
 	}
 	.carousel-txt {
 		p {

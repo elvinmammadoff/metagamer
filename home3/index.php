@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="256x256"  href="src/assets/img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="src/assets/img/favicon/android-chrome-512x512.png">    
-    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="src/assets/img/favicon/site.webmanifest">
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="src/assets/css/plugins/slick.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/slick-theme.css" type="text/css">
     <link rel="stylesheet" href="src/assets/css/plugins/touch-sideswipe.css" type="text/css">
-    <link rel="stylesheet" href="src/assets/css/plugins/aos.css" type="text/css" />
+    <link rel="stylesheet" href="src/assets/css/plugins/aos.css" type="text/css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap" type="text/css">
     <link rel="stylesheet" href="src/assets/css/style.css" type="text/css">
@@ -55,8 +55,7 @@
             <video loop autoPlay muted class="video-bg" src="./src/assets/video/video-game.mp4"></video>
             <div class="video-container container">
                 <div class="video-content">
-                    <h2 class="video-title" data-aos="fade-up" data-aos-duration="2000">Welcome to the MetaGamer
-                        Multiverse</h2>
+                    <h1 class="video-title" data-aos="fade-up" data-aos-duration="2000">Welcome to the MetaGamer Multiverse</h1>
                     <p class="video-desc" data-aos="fade-up" data-aos-duration="2200">
                         We are a community of millions of Metagames and continue to open doors
                         to new worlds every day. If you're up for a challenge,
@@ -87,7 +86,7 @@
                                 <div class="navbar-container">
                                     <a class="navbar-brand" href="#home">
                                         <img src="src/assets/img/logo.svg" alt="MetaGamer">
-                                        <span>MetaGamer</span>
+                                        <h2 class="navbar-brand_name">MetaGamer</h2>
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
                                         <span>Menu</span>

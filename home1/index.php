@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="256x256"  href="src/assets/img/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="src/assets/img/favicon/android-chrome-512x512.png">    
-    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="src/assets/img/favicon/site.webmanifest">
@@ -77,7 +77,7 @@
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
-                                <h5>Play trending games everywhere.</h5>
+                                <h2 class="carousel-ttl_name">Play trending games everywhere.</h2>
                             </div>
                             <div class="carousel-txt">
                                 <p>
@@ -95,7 +95,7 @@
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
-                                <h5>Connect and enjoy with team.</h5>
+                                <h2 class="carousel-ttl_name">Connect and enjoy with team.</h2>
                             </div>
                             <div class="carousel-txt">
                                 <p>
@@ -112,7 +112,7 @@
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
-                                <h5>Feel no limits power.</h5>
+                                <h2 class="carousel-ttl_name">Feel no limits power.</h2>
                             </div>
                             <div class="carousel-txt">
                                 <p>
@@ -129,7 +129,7 @@
                     <div class="carousel-container">
                         <div class="carousel-caption">
                             <div class="carousel-ttl">
-                                <h5>Free cloud gaming experience.</h5>
+                                <h2 class="carousel-ttl_name">Free cloud gaming experience.</h2>
                             </div>
                             <div class="carousel-txt">
                                 <p>
@@ -157,7 +157,7 @@
                                 <div class="container-fluid navbar-container">
                                     <a class="navbar-brand page-scroll" href="#home">
                                         <img src="src/assets/img/logo.svg" alt="MetaGamer">
-                                        <span>MetaGamer</span>
+                                        <h2 class="navbar-brand_name">MetaGamer</h2>
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
                                         <span>Menu</span>
