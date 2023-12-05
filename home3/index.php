@@ -78,6 +78,7 @@
         <section class="layer section" id="home">
             <div class="content">
 
+            <h2 class="title d-none">Home</h2>
                 <!--========== Header ==========-->
                 <div class="position-relative">
                     <div class="header">
