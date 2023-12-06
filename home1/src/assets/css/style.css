@@ -1416,15 +1416,15 @@ a:hover {
 
 
 /*====== 5.4 Update ======*/
-.update {
+section.update {
     background-image: url('../img/cover.jpg');
 }
 
-.update::after {
+section.update::after {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.update .container {
+section.update .container {
     z-index: 1;
     position: relative;
 }
