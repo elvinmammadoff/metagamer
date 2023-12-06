@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>MetaGamer - Gaming Landing page</title>
+    <title>MetaGamer - Game & Gaming Landing Page HTML5 Template</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./demo/src/assets/img/favicon/apple-touch-icon.png">
