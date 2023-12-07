@@ -56,7 +56,7 @@
                     <h1 class="hero-title" data-aos="fade-up" data-aos-duration="3100">Build your successful Game and Gaming website by our MetaGamer HTML Template.</h1>
                     <div class="hero-action">
                         <a href="javascript:void(0)" class="hero-link link-primary" data-aos="fade-up" data-aos-duration="3100">Buy now for 15$</a>
-                        <a href="https://metagamer.netlify.app/demo/src/documentation/" class="hero-link link-outline" data-aos="fade-up" data-aos-duration="3100">Online Documentation</a>
+                        <a href="https://metagamer.netlify.app/documentation/" class="hero-link link-outline" data-aos="fade-up" data-aos-duration="3100">Online Documentation</a>
                     </div>
                 </div>
             </div>
