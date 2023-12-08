@@ -401,6 +401,12 @@
     </div>
 
 
+    <!--========== Envato Buy Now Button ==========-->
+    <a href="" class="buy-now" target="_blank">
+        <img src="./demo/src/assets/img/envato.png" alt="envato">
+    </a>
+
+
     <!--========== Scroll Up ==========-->
     <div class="scroll-up">
         <span class="scroll-up_text">Back to top</span>

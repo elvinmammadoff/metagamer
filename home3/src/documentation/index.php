@@ -355,11 +355,11 @@
 
 [Index]
 1. Global
-1.1 Icomoon Custom Icon Font
-1.2 General
-1.3 Scrollbar
-1.4 Scroll Up
-1.5 Loading Overlay
+    1.1 Icomoon Custom Icon Font
+    1.2 General
+    1.3 Scrollbar
+    1.4 Scroll Up
+    1.5 Loading Overlay
 2. Carousel
 3. Header
     3.1 Header General
