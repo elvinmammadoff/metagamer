@@ -14,7 +14,7 @@
     <!-- Social media meta tags -->
     <meta property="og:title" content="MetaGamer - Game & Gaming Responsive Landing HTML5 Template" />
     <meta property="og:description" content="MetaGamer is a Game & Gaming Responsive Landing Page HTML5 Template. If you are thinking about launching a website for your game plans MetaGamer is the best option for this." />
-    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:url" content="https://metagamer.netlify.app/" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./demo/src/assets/img/favicon/apple-touch-icon.png">
