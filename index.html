@@ -7,9 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>MetaGamer - Game & Gaming Landing Page HTML5 Template</title>
+    <meta name="description" content="MetaGamer is a Game & Gaming Responsive Landing Page HTML5 Template. If you are thinking about launching a website for your game plans MetaGamer is the best option for this.">
+    <meta name="author" content="Alissio">
+    <title>MetaGamer - Game & Gaming Responsive Landing HTML5 Template</title>
+
+    <!-- Social media meta tags -->
+    <meta property="og:title" content="MetaGamer - Game & Gaming Responsive Landing HTML5 Template" />
+    <meta property="og:description" content="MetaGamer is a Game & Gaming Responsive Landing Page HTML5 Template. If you are thinking about launching a website for your game plans MetaGamer is the best option for this." />
+    <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+    <meta property="og:image" content="https://metagamer.netlify.app/demo/src/assets/img/hero/hero-bg.png" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./demo/src/assets/img/favicon/apple-touch-icon.png">
@@ -52,7 +58,7 @@
         <div class="hero">
             <div class="hero-container container">
                 <div class="hero-content">
-                    <img src="./demo/src/assets/img/logo.svg" alt="" class="hero-logo" data-aos="zoom-in" data-aos-duration="3100">
+                    <img src="./demo/src/assets/img/logo.svg" alt="metagamer" class="hero-logo" data-aos="zoom-in" data-aos-duration="3100">
                     <h1 class="hero-title" data-aos="fade-up" data-aos-duration="3100">Build your successful Game and Gaming website by our MetaGamer HTML Template.</h1>
                     <div class="hero-action">
                         <a href="javascript:void(0)" class="hero-link link-primary" data-aos="fade-up" data-aos-duration="3100">Buy now for 15$</a>
@@ -75,7 +81,7 @@
                             <div class="container">
                                 <div class="navbar-container">
                                     <a class="navbar-brand" href="#home">
-                                        <img src="demo/src/assets/img/logo.svg" alt="MetaGamer">
+                                        <img src="demo/src/assets/img/logo.svg" alt="metagamer">
                                         <h2 class="navbar-brand_name">MetaGamer</h2>
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger burger-menu-icon">
@@ -126,7 +132,7 @@
                             <a href="https://metagamer.netlify.app/home1" class="demo-item">
                                 <div class="demo-preview">
                                     <div class="demo-cover">
-                                        <img src="./demo/src/assets/img/preview/preview1.png" class="w-100" alt="">
+                                        <img src="./demo/src/assets/img/preview/preview1.png" class="w-100" alt="preview1">
                                     </div>
                                 </div>
                                 <div class="demo-details">
@@ -139,7 +145,7 @@
                             <a href="https://metagamer.netlify.app/home2" class="demo-item">
                                 <div class="demo-preview">
                                     <div class="demo-cover">
-                                        <img src="./demo/src/assets/img/preview/preview2.png" class="w-100" alt="">
+                                        <img src="./demo/src/assets/img/preview/preview2.png" class="w-100" alt="preview2">
                                     </div>
                                 </div>
                                 <div class="demo-details">
@@ -152,7 +158,7 @@
                             <a href="https://metagamer.netlify.app/home3" class="demo-item">
                                 <div class="demo-preview">
                                     <div class="demo-cover">
-                                        <img src="./demo/src/assets/img/preview/preview3.png" class="w-100" alt="">
+                                        <img src="./demo/src/assets/img/preview/preview3.png" class="w-100" alt="preview3">
                                     </div>
                                 </div>
                                 <div class="demo-details">
@@ -165,10 +171,10 @@
                             <div class="demo-item">
                                 <div class="demo-preview">
                                     <div class="demo-cover">
-                                        <img src="./demo/src/assets/img/preview/preview4.png" class="w-100" alt="">
+                                        <img src="./demo/src/assets/img/preview/preview4.png" class="w-100" alt="preview4">
                                     </div>
                                     <div class="demo-coming">
-                                        <img src="./demo/src/assets/img/logo.svg" alt="" class="demo-logo">
+                                        <img src="./demo/src/assets/img/logo.svg" alt="metagamer" class="demo-logo">
                                         <div class="demo-timer" id="countdown">
                                             <div class="demo-timer_item">
                                                 <div class="days"></div>
@@ -213,42 +219,42 @@
                 <div class="row">
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/design.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/design.png" class="feat-icon" alt="design">
                             <h4 class="feat-name">Beautifully Designed</h4>
                             <p class="feat-desc">MetaGamer template comes with a huge layout of beautifully designed.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/customize.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/customize.png" class="feat-icon" alt="customize">
                             <h4 class="feat-name">Easy to Customize</h4>
                             <p class="feat-desc">You will be able to modify any part of the template. Spend less time to customize.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/responsive.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/responsive.png" class="feat-icon" alt="responsive">
                             <h4 class="feat-name">Fully Responsive</h4>
                             <p class="feat-desc">We've made the template fully responsive and easily compilable with all devices.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/support.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/support.png" class="feat-icon" alt="support">
                             <h4 class="feat-name">Friendly Support</h4>
                             <p class="feat-desc">Our support staff is ready to answer all your questions 7 days a week.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/browser.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/browser.png" class="feat-icon" alt="browser">
                             <h4 class="feat-name">Cross Browser Tested</h4>
                             <p class="feat-desc">It works across different browsers as expected and degrades gracefully.</p>
                         </div>
                     </div>
                     <div class="col-lg-4" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/modern.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/modern.png" class="feat-icon" alt="modern">
                             <h4 class="feat-name">Clean and Modern</h4>
                             <p class="feat-desc">Through nuanced stakeholder relations and astute partnership building.</p>
                         </div>
@@ -269,84 +275,84 @@
                 <div class="row feat-list">
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/bootstrap.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/bootstrap.png" class="feat-icon" alt="bootstrap">
                             <h4 class="feat-name">Bootstrap V5.0.2</h4>
                             <p class="feat-desc">This outsourcing CSS design file is an open source toolkit for developing with HTML, CSS and JS.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/scss.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/scss.png" class="feat-icon" alt="scss">
                             <h4 class="feat-name">SCSS Support</h4>
                             <p class="feat-desc">Sass is the most stable and powerful professional grade CSS extension language in the world.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/flat-icon.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/flat-icon.png" class="feat-icon" alt="flat-icon">
                             <h4 class="feat-name">Flat Icon</h4>
                             <p class="feat-desc">Flaticon is home to many talented icon designers.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/features/slick.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/slick.png" class="feat-icon" alt="slick-slider">
                             <h4 class="feat-name">Slick Slider</h4>
                             <p class="feat-desc">Slick Slider is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/aos.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/aos.png" class="feat-icon" alt="aos">
                             <h4 class="feat-name">AOS</h4>
                             <p class="feat-desc">AOS is a small library to animate elements on your page as you scroll.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/css3.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/css3.png" class="feat-icon" alt="css3">
                             <h4 class="feat-name">Css3</h4>
                             <p class="feat-desc">CSS is a style sheet language used for describing the look and formatting of a document.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/html5.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/html5.png" class="feat-icon" alt="html5">
                             <h4 class="feat-name">Html5</h4>
                             <p class="feat-desc">HTML5 is a markup language used for structuring and presenting content on the WWW.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/jquery.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/jquery.png" class="feat-icon" alt="jquery">
                             <h4 class="feat-name">Jquery</h4>
                             <p class="feat-desc">jQuery is a fast, small, and feature-rich JavaScript library.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/w3c-validation.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/w3c-validation.png" class="feat-icon" alt="w3c-validation">
                             <h4 class="feat-name">W3C Validation</h4>
                             <p class="feat-desc">This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/fully-responsive.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/fully-responsive.png" class="feat-icon" alt="fully-responsive">
                             <h4 class="feat-name">Fully Responsive</h4>
                             <p class="feat-desc">Responsive is an approach to web design that aims to make web pages render well on a variety of devices.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/code.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/code.png" class="feat-icon" alt="clean-code">
                             <h4 class="feat-name">Clean Code</h4>
                             <p class="feat-desc">Code is clean if it can be understood easily – by everyone on the team.</p>
                         </div>
                     </div>
                     <div class="col-lg-3" data-aos="fade-up" data-aos-duration="2400">
                         <div class="feat-card">
-                            <img src="./demo/src/assets/img/features/google-font.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/features/google-font.png" class="feat-icon" alt="google-font">
                             <h4 class="feat-name">Google Font</h4>
                             <p class="feat-desc">Google Fonts makes it easy to bring personality and performance to your websites.</p>
                         </div>
@@ -367,14 +373,14 @@
                 <div class="row support-list">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/support/document.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/support/document.png" class="feat-icon" alt="detailed-document">
                             <h4 class="feat-name">Detailed Document</h4>
                             <p class="feat-desc">Our documentation is as thorough as possible. Each templates option is detailed and easy to follow.</p>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
                         <div class="feat-card" data-aos="fade-up">
-                            <img src="./demo/src/assets/img/support/24-hours-support.png" class="feat-icon" alt="">
+                            <img src="./demo/src/assets/img/support/24-hours-support.png" class="feat-icon" alt="premium-support">
                             <h4 class="feat-name">Premium Support</h4>
                             <p class="feat-desc">We offer a dedicated & friendly support. We will try to reply as fast as we can. We're happy to help.</p>
                         </div>
@@ -419,7 +425,7 @@
         <div class="rmenu_header">
             <div class="rmenu_header-left">
                 <a class="navbar-brand rmenu_logo" href="#home">
-                    <img src="demo/src/assets/img/logo.svg" alt="MetaGamer">
+                    <img src="demo/src/assets/img/logo.svg" alt="metagamer">
                     <span>MetaGamer</span>
                 </a>
                 <div class="cd-close-nav">Close</div>
