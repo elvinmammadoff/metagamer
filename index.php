@@ -13,7 +13,7 @@
 
     <!-- Social media meta tags -->
     <meta property="og:title" content="MetaGamer - Game & Gaming Responsive Landing HTML5 Template" />
-    <meta property="og:description" content="MetaGamer is a Game & Gaming Responsive Landing Page HTML5 Template. If you are thinking about launching a website for your game plans MetaGamer is the best option for this." />
+    <meta property="og:description" content="If you are thinking about launching a website for your game plans MetaGamer is the best option for this." />
     <meta property="og:url" content="https://metagamer.netlify.app/" />
 
     <!-- Favicon -->
